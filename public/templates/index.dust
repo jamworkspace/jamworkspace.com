@@ -1,0 +1,58 @@
+{>"layouts/master" /}
+
+
+{<body}
+
+<header class="header">
+
+
+
+
+
+
+
+
+            <div class="logo"><img src="img/JAM_logo.png"></div>
+            <h1>{@pre type="content" key="message"/}</h1>
+        </header>
+
+        <h2>Jam Workspace is opening soon in Amsterdam, be sure to reserve your space.  Get on the list by filling out the form below.</h2>
+        <div id="mc_embed_signup" class="contact-form">
+        <form action="http://jamworkspace.us8.list-manage.com/subscribe/post?u=03f88b1ee48eac438fe29d593&amp;id=0a082512be" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+        <div class="mc-field-group form-group">
+            <label for="mce-EMAIL">Email Address *  <span class="asterisk">( required )</span>
+        </label>
+            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+        </div>
+        <div class="mc-field-group form-group">
+            <label for="mce-NAME">Name *  <span class="asterisk">( required )</span>
+        </label>
+            <input type="text" value="" name="NAME" class="required form-control" id="mce-NAME">
+        </div>
+        <div class="mc-field-group size1of2 form-group">
+            <label for="mce-MMERGE3">Phone Number </label>
+            <div class="phonefield phonefield-us form-control">
+                (<span class="phonearea"><input pattern="[0-9]*" id="mce-MMERGE3-area" name="MMERGE3[area]" maxlength="3" size="3" value="" type="text"></span>)
+                <span class="phonedetail1"><input pattern="[0-9]*" id="mce-MMERGE3-detail1" name="MMERGE3[detail1]" maxlength="4" size="4" value="" type="text"></span> -
+                <span class="phonedetail2"><input pattern="[0-9]*" id="mce-MMERGE3-detail2" name="MMERGE3[detail2]" maxlength="4" size="4" value="" type="text"></span>
+                <span class="small-meta nowrap">(###) ####-####</span>
+                <div class="fake-phone"><input type="hidden" class=" phone" id="MMERGE3-fake-phone" value=""></div>
+            </div>
+        </div>  <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"><i class="glyphicon glyphicon-remove-sign"></i></div>
+                <div class="response" id="mce-success-response" style="display:none"><i class="glyphicon glyphicon-ok-sign"></i></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_03f88b1ee48eac438fe29d593_0a082512be" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-success btn-block"></div>
+        </form>
+        </div>
+
+        <div class="social-media">
+            <twitter-button type="follow" user="JamWorkspace" width="250"></twitter-button>
+            <facebook-button action="like" href="https://www.facebook.com/jamworkspace" layout="button_count" width="80" height="25"></facebook-button>
+        </div>
+
+
+
+{/body}

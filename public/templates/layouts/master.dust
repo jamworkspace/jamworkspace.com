@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{+title /}</title>
+    <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="import" href="components/twitter-button/dist/twitter-button.html" />
+    <link rel="import" href="components/facebook-button/dist/facebook-button.html" />
+    {!
+      zeek todo: refactor templates into partials e.g. header, footer, form, anylitics, etc.
+    !}
+</head>
+<body>
+
+
+<div class="page-wrapper">
+<ul class="nav nav-pills">
+ <li><a href="/">Home</a></li>
+            <li><a href="/profile">Profile</a></li>
+                {#user}
+                    {@eq key=role value="admin"}
+                     <li><a href="/admin">Admin</a></li>
+                     {/eq}
+                {/user}
+
+
+
+            <li>
+                {#user}
+                     <a href="/logout">Logout</a>
+                {:else}
+                     <a href="/login">Login</a>
+                {/user}
+            </li>
+
+                <li><a href="/setLocale/en-US">English</a></li>
+    <li><a href="/setLocale/nl-NL">Dutch</a></li>
+</ul>
+
+    {+body /}
+    <footer class="footer">
+        &copy; Copyright JAM Workspace 2014
+    </footer>
+</div>
+<script data-main="/js/app" src="/components/requirejs/require.js"></script>
+<script src="components/platform/platform.js"></script>
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51533509-1', 'jamworkspace.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

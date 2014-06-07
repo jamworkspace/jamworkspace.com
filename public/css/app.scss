@@ -1,0 +1,244 @@
+/** zeek todo: remove double reset when including bootstrap */
+
+/** =========================================================================
+    Reset
+    ========================================================================= */
+
+* {
+    border: 0;
+    line-height: 1em;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header:after,
+footer:after,
+section:after,
+main:after,
+aside:after,
+figure:after,
+div:after,
+ol:after,
+li:after,
+form:after,
+ul:after,
+dl:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: #333 solid 1px;
+}
+
+hr {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 300px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 5% 10%;
+}
+
+h2{
+    padding: 0 10% 1%;
+    margin-top: 60px;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+
+/* JAM temp page
+========================================================================================*/
+
+header {
+    width: 100%;
+    height: 100%;
+    background: url(../img/jam_bg.jpg) 40% 50%;
+    background-size: 200%;
+}
+
+.container {
+    width: 70%;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.logo img{
+    width: 30%;
+}
+
+.social-media {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #e9e9e9;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* form
+========================================================================================*/
+
+.contact-form {
+    width: 65%;
+    margin: 4% auto 8%;
+    font-size: 1.2em;
+}
+
+fieldset{
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.asterisk {
+    font-weight: normal;
+    font-size: 13px;
+    color: #888;
+}
+
+
+/* Mailchimp overides
+========================================================================================*/
+
+#mc_embed_signup div.mce_inline_error {
+    border-top: 1px solid #6B0505 !important;
+    padding: 7px 10px !important;
+    background-color: #C98080 !important;
+    margin-top: -2px !important;
+    border-radius: 0 0 3px 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500 !important;
+    font-size: 14px;
+}
+
+.response {
+    padding: 13px 10px;
+    border: 1px solid #1EB81E;
+    border-radius: 5px;
+    color: #1eb81e;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+
+/* Media queries
+========================================================================================*/
+
+@media (max-width: 980px) {
+    .contact-form {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h2 {
+        padding: 0 10% 5%;
+    }
+
+    .logo img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 550px) {
+    .contact-form {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .logo img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-form {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 16px;
+        padding: 5% 5%;
+        line-height: 25px;
+        color: black;
+    }
+
+    h2 {
+        font-size: 16px;
+        padding: 0 3% 10%;
+        line-height: 25px;
+    }
+
+    .logo img{
+        width: 70%;
+    }
+
+    .contact-form {
+        width: 85%;
+    }
+}
+
+@media (max-width: 320px) {
+    .social-media {
+        width: 210px;
+    }
+}
