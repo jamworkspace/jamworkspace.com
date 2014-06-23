@@ -17,7 +17,7 @@ module.exports = function requirejs(grunt) {
                 ],
                 paths: {
                     app: 'js/app',
-                    jquery: 'components/jquery/dist/jquery.min'
+                    jquery: 'bower_components/jquery/dist/jquery.min'
                 }
 
 

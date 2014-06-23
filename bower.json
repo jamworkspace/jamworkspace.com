@@ -1,0 +1,28 @@
+{
+  "name": "jamworkspace",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jamworkspace/jamworkspace",
+  "authors": [
+    "Ezekiel Chentnik <ezekielcyrus@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dustjs-linkedin-helpers": "^1.1.1",
+    "dustjs-linkedin": "^2.0.3",
+    "facebook-button": "~0.1.3",
+    "requirejs": "^2.1.11",
+    "twitter-button": "~0.1.5",
+    "bootstrap": "~3.1.1",
+    "jquery": "^2.1.1"
+  }
+}
