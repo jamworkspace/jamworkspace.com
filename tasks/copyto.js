@@ -14,7 +14,7 @@ module.exports = function copyto(grunt) {
 	        options: {
 	            ignore: [
 	            	'public/css/**/*',
-	                
+	               'public/components/**/*',
 	                'public/templates/**/*'
 	            ]
 	        }
