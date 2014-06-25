@@ -3,7 +3,7 @@
 
 module.exports = function less(grunt) {
 	// Load task
-	grunt.loadNpmTasks('grunt-sass');
+	grunt.loadNpmTasks('grunt-contrib-sass');
 
 	// Options
 	return {
