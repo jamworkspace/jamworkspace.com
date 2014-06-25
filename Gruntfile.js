@@ -9,7 +9,7 @@ module.exports = function (grunt) {
     });
 
     // Register group tasks
-    grunt.registerTask('buildtemplates', [ 'i18n', 'dustjs' ]);
+    //grunt.registerTask('buildtemplates', [ 'i18n', 'dustjs' ]);
     //grunt.registerTask('buildcomponents', [ 'bowercopy' ]);
     grunt.registerTask('buildcss', [ 'sass', 'concatcss' ]);
    // grunt.registerTask('buildimages', [ 'imagemin' ]);

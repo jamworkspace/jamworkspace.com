@@ -7,15 +7,13 @@ module.exports = function concatcss(grunt) {
 
 
 	return {
-
-            dist: {
-                src: [
-                    'public/components/pure/pure-min.css',
-                    'public/css/*.css'
-                ],
-                dest: '.build/css/app.css'
-            }
-
+        dist: {
+            src: [
+                'public/components/pure/pure-min.css',
+                'public/css/*.css'
+            ],
+            dest: '.build/css/app.css'
+        }
 	};
 };
 
