@@ -1,7 +1,7 @@
 'use strict';
 
 
-module.exports = function less(grunt) {
+module.exports = function sass(grunt) {
 	// Load task
 	grunt.loadNpmTasks('grunt-contrib-sass');
 
@@ -15,7 +15,7 @@ module.exports = function less(grunt) {
                 expand: true,
                 cwd: 'public/css',
                 src: ['**/*.scss'],
-                dest: '.build/css/',
+                dest: 'public/css',
                 ext: '.css'
             }]
         }
