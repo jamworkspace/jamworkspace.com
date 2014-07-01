@@ -9,7 +9,7 @@ module.exports = function concat(grunt) {
 	return {
         css: {
             src: [
-                'public/components/pure/pure-min.css',
+                //'public/components/pure/pure-min.css',
                 'public/css/*.css'
             ],
             dest: '.build/css/app.css'

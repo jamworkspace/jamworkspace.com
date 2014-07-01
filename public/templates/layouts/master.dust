@@ -4,9 +4,36 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>{+title /}</title>
-    <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/css/app.css" />
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+    <!--[if lte IE 8]>
+
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+
+        <link rel="stylesheet" href="/css/app.css" />
+
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
     <link rel="import" href="components/twitter-button/dist/twitter-button.html" />
     <link rel="import" href="components/facebook-button/dist/facebook-button.html" />
     {!
@@ -16,47 +43,157 @@
 <body>
 
 
-<div class="page-wrapper">
-<ul class="nav nav-pills">
- <li><a href="/">Home</a></li>
-            <li><a href="/profile">Profile</a></li>
-                {#user}
-                    {@eq key=role value="admin"}
-                     <li><a href="/admin">Admin</a></li>
-                     {/eq}
-                {/user}
 
 
 
-            <li>
-                {#user}
-                     <a href="/logout">Logout</a>
-                {:else}
-                     <a href="/login">Login</a>
-                {/user}
-            </li>
 
-                <li><a href="/setLocale/en-US">English</a></li>
-    <li><a href="/setLocale/nl-NL">Dutch</a></li>
-</ul>
 
-    {+body /}
-    <footer class="footer">
-        &copy; Copyright JAM Workspace 2014
-    </footer>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href=""><img class="logo" src="img/JAM_logo.png"/></a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/membership">Membership</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/setLocale/en-US">English</a></li>
+            <li><a href="/setLocale/nl-NL">Dutch</a></li>
+            {#user}
+                {@eq key=role value="admin"}
+                 <li><a href="/admin">Admin</a></li>
+                  <li><a href="/profile">Profile</a></li>
+                  <li> <a href="/logout">Logout</a> </li>
+                 {/eq}
+            {/user}
+        </ul>
+    </div>
 </div>
-<script data-main="/js/app" src="/components/requirejs/require.js"></script>
-<script src="components/platform/platform.js"></script>
-<script>
 
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">Workspace + Kids</h1>
+        <p class="splash-subhead">
+            A community focused co-working environment supporting you.
+        </p>
+        <p>
+            <a href="http://purecss.io" class="pure-button pure-button-primary">Start today</a>
+        </p>
+    </div>
+</div>
 
-  ga('create', 'UA-51533509-1', 'jamworkspace.com');
-  ga('send', 'pageview');
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">Everything you need in one space. Your workspace.</h2>
 
-</script>
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    Resident Jam Desks
+                </h3>
+                <p>
+                    Enjoy a secure desk in a vibrant community workspace! Includes a secure desk, locked file cabinet, work ready chair, and privacy screen. Work in a community that supports you.
+                    Find out how to reserve your Resident Jam desk below.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-mobile"></i>
+                    Responsive Layouts
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Modular
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-check-square-o"></i>
+                    Plays Nice
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/file-icons.png">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor.
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+
+
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" placeholder="Your Email">
+
+                        <label for="password">Your Password</label>
+                        <input id="password" type="password" placeholder="Your Password">
+
+                        <button type="submit" class="pure-button">Sign Up</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Contact Us</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+
+                <h4>More Information</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        View the source of this layout to learn more. Made with love by the YUI Team.
+    </div>
+
+</div>
+
+
+
 </body>
 </html>
