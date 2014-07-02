@@ -21,7 +21,7 @@
     <!--<![endif]-->
     <!--[if lte IE 8]>
 
-        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <link rel="stylesheet" href="/css/app-old-ie.css">
 
     <![endif]-->
     <!--[if gt IE 8]><!-->
@@ -30,7 +30,7 @@
 
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
 
 
 
@@ -74,7 +74,7 @@
     <div class="splash">
         <h1 class="splash-head">Workspace + Kids</h1>
         <p class="splash-subhead">
-            A community focused co-working environment for you.
+            A community focused workspace you love.
         </p>
         <p>
             <a href="http://purecss.io" class="pure-button pure-button-primary">Start today</a>
@@ -129,20 +129,28 @@
 
     <div class="ribbon l-box-lrg pure-g">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/file-icons.png">
+          <div id="map"></div>
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
-            <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
+            <h2 class="content-head content-head-ribbon">Our Locations.</h2>
 
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor.
+                1234 Hijak Street,
+                Amsterdam, 123234
+                Phone: 1234567
+                Fax: 123456
             </p>
         </div>
     </div>
+
+
+
+
+
+
+
+
 
     <div class="content">
         <h2 class="content-head is-center">Receive special offers and networking opportunities.</h2>
@@ -182,13 +190,76 @@
 
     </div>
 
-    <div class="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
+
+
+
+
+
+<div class="photo-grid">
+    <div class="pure-g">
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="http://www.fashionmagazine.com/wp-content/uploads/2014/06/how-to-take-the-perfect-profile-picture-imjennim-tinder.jpg" alt="Peyto Lake">
     </div>
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="https://lh6.googleusercontent.com/-r9yhTNHS2kE/UMhYShZjpsI/AAAAAAAADPg/KiOEjSTE-mA/w800-h800/206353_4477493466031_971797264_n.jpg" alt="Train">
+    </div>
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/t1.0-9/206229_10151543925000435_1074669229_n.jpg" alt="T-Shirt Store">
+    </div>
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="https://lh6.googleusercontent.com/-JO-Bb3_O1Ho/AAAAAAAAAAI/AAAAAAAAAB8/tAVtxgYZyvM/w800-h800/photo.jpg" alt="Mountain">
+    </div>
+
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="http://static.squarespace.com/static/52018319e4b08b065902f201/52213493e4b0bc8ec5300098/53555cb2e4b06f1aeeab69e1/1398103219262/" alt="Miami Heat">
+    </div>
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="http://farm5.staticflickr.com/4089/4977319137_a730cb1697_z.jpg" alt="BCE Place, Toronto">
+    </div>
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="http://media-cache-ak0.pinimg.com/736x/fe/c9/a9/fec9a950c6a998afe8e470ff1403e2af.jpg" alt="Banff">
+    </div>
+    <div class="pure-u-1-4 pure-u-lg-1-8">
+        <img class="pure-img" src="http://37.media.tumblr.com/64258897fadbbb3be7483485a09e7dc6/tumblr_n281bnuI9o1szdewjo1_1280.jpg" alt="Let it snow">
+    </div>
+</div>
 
 </div>
 
 
+    <div class="footer l-box is-center">
+            © 2014 Jam Workspace. All rights reserved.
+    </div>
+
+
+
+
+
+
+
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCcaLBVlaVaBpIBL5wzisB7_4ICW90ruJc"></script>
+<script>
+var myOptions = {
+    zoom: 15,
+    center: new google.maps.LatLng(52.3667, 4.9000),
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.business","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]}]
+};
+
+var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+
+
+
+
+
+
+
+
+
+</script>
 
 </body>
 </html>

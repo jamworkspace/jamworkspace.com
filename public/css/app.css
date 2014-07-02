@@ -102,7 +102,7 @@ a.pure-button-primary {
  * SPLASH STYLES
  ========================================*/
 .splash-container {
-  background: url(../img/hero-feature.jpg) center center;
+  background: url(../img/hero-feature-2.jpg) center 95%;
   z-index: 1;
   overflow: hidden;
   width: 100%;
@@ -170,6 +170,9 @@ a.pure-button-primary {
 
 .footer {
   background: #333; }
+
+#map {
+  height: 250px; }
 
 /*========================================
  * TABLET (AND UP) MEDIA QUERIES

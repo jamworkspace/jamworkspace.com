@@ -121,7 +121,7 @@ a.pure-button-primary {
  ========================================*/
 
 .splash-container {
-    background: url(../img/hero-feature.jpg) center center;
+    background: url(../img/hero-feature-2.jpg) center 95%;
     z-index: 1;
     overflow: hidden;
     width: 100%;
@@ -198,6 +198,8 @@ a.pure-button-primary {
     background: #333;
 }
 
+#map{height:250px;}
+
 /*========================================
  * TABLET (AND UP) MEDIA QUERIES
  ========================================*/
@@ -206,6 +208,7 @@ a.pure-button-primary {
     body {
         font-size: 16px;
     }
+
 
     .content {
         padding: 1em;
