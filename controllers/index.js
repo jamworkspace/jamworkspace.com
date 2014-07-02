@@ -4,6 +4,7 @@
 var IndexModel = require('../models/index'),
     ProfileModel = require('../models/profile'),
     AdminModel = require('../models/admin'),
+    AboutModel = require('../models/about'),
     auth = require('../lib/auth');
 
 
@@ -12,6 +13,7 @@ module.exports = function (router) {
     var indexmodel = new IndexModel();
     var profilemodel = new ProfileModel();
     var adminmodel = new AdminModel();
+    var aboutmodel = new AboutModel();
 
 
     router.get('/', function (req, res) {
@@ -26,6 +28,10 @@ module.exports = function (router) {
 
     router.get('/admin', auth.isAuthenticated('admin'), auth.injectUser(), function(req, res) {
         res.render('admin', adminmodel);
+    });
+
+    router.get('/about', function(req, res) {
+        res.render('about', aboutmodel);
     });
 
     /**
