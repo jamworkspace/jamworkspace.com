@@ -1,6 +1,11 @@
 {>"layouts/master" /}
 
 {<body}
-    <h1>{@pre type="content" key="header"/}</h1>
-    <p>{@pre type="content" key="description"/}</p>
+
+    {>"parts/part-navigation" /}
+    <div class="content">
+        <h1>{@pre type="content" key="header"/}</h1>
+        <p>{@pre type="content" key="description"/}</p>
+    </div>
+    {>"parts/part-footer" /}
 {/body}

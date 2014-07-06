@@ -2,27 +2,7 @@
 
 
 {<body}
-
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
-        <a class="pure-menu-heading" href="">Jam Workspace</a>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/membership">Membership</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/setLocale/en-US">English</a></li>
-            <li><a href="/setLocale/nl-NL">Dutch</a></li>
-            {#user}
-                {@eq key=role value="admin"}
-                 <li><a href="/admin">Admin</a></li>
-                  <li><a href="/profile">Profile</a></li>
-                  <li> <a href="/logout">Logout</a> </li>
-                 {/eq}
-            {/user}
-        </ul>
-    </div>
-</div>
+{>"parts/part-navigation" /}
 
 <div class="splash-container">
     <div class="splash">
@@ -98,47 +78,7 @@
         </div>
     </div>
 
-    <div class="content">
-        <h2 class="content-head is-center">Receive special offers and networking opportunities.</h2>
-
-        <div class="pure-g">
-            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                <form class="pure-form pure-form-stacked">
-                    <fieldset>
-
-                        <label for="name">Your Name</label>
-                        <input id="name" type="text" placeholder="Your Name">
-
-
-                        <label for="email">Your Email</label>
-                        <input id="email" type="email" placeholder="Your Email">
-
-                        <label for="password">Company Name</label>
-                        <input id="password" type="password" placeholder="Your Password">
-
-                        <button type="submit" class="pure-button">Sign Up</button>
-                    </fieldset>
-                </form>
-            </div>
-
-            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                <h4>Contact Us</h4>
-                <p>
-                    Still unsure? Contact us for more information about any of our services or stop by for a guided tour. No hard sales pitches, just some good old conversation.
-                </p>
-
-                <h4>Why?</h4>
-                <p>
-                    Fair question. Because working from home is boring, unproductive, and lonely. Working in coffee shoos don't connect you with the right people or help you grow your business. Because you want to create, work, explore, and push the limits. You could do it alone, or you could do it with friends. Which sounds better?
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
-    </div>
+    {>"parts/part-footer" /}
 
 </div>
 
