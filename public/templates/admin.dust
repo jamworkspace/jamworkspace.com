@@ -2,10 +2,10 @@
 
 {<body}
 
-    {>"parts/part-navigation" /}
+    {>"partials/partial-navigation" /}
     <div class="content">
         <h1>{@pre type="content" key="greeting"/}</h1>
         <p>Welcome to the Administrators private club. No users allowed here.</p>
     </div>
-    {>"parts/part-footer" /}
+    {>"partials/partial-footer" /}
 {/body}

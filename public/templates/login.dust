@@ -2,7 +2,7 @@
 
 {<body}
 
-    {>"parts/part-navigation" /}
+    {>"partials/partial-navigation" /}
     <div class="content">
        <div>
             <form id="loginForm" method="post">
@@ -38,5 +38,5 @@
             </form>
         </div>
     </div>
-    {>"parts/part-footer" /}
+    {>"partials/partial-footer" /}
 {/body}

@@ -2,7 +2,7 @@
 
 
 {<body}
-{>"parts/part-navigation" /}
+{>"partials/partial-navigation" /}
 
 <div class="splash-container">
     <div class="splash">
@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    {>"parts/part-footer" /}
+    {>"partials/partial-footer" /}
 
 </div>
 
