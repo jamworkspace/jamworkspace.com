@@ -1,0 +1,1 @@
+(function(){dust.register("partials/partial-footer",body_0);function body_0(chk,ctx){return chk.write("<div class=\"footer l-box is-center\">© 2014 Jam Workspace.</div>");}return body_0;})();

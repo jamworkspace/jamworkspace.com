@@ -1,0 +1,201 @@
+/*========================================
+ * BASE STYLES
+ ========================================*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1.7em;
+  color: #7f8c8d;
+  font-size: 13px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: #34495e; }
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto; }
+
+/*========================================
+ * LAYOUT STYLES
+ ========================================*/
+.l-box {
+  padding: 1em; }
+
+.l-box-lrg {
+  padding: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.is-center {
+  text-align: center; }
+
+/*========================================
+ * FORM STYLES
+ ========================================*/
+.pure-form label {
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 100%; }
+
+.pure-form input[type] {
+  border: 2px solid #ddd;
+  box-shadow: none;
+  font-size: 100%;
+  width: 100%;
+  margin-bottom: 1em; }
+
+/*========================================
+ * BUTTON STYLES
+ ========================================*/
+.pure-button {
+  background-color: #1f8dd6;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 5px; }
+
+a.pure-button-primary {
+  font-size: 120%; }
+
+/*========================================
+ * MENU STYLES
+ ========================================*/
+.home-menu {
+  padding: 0.5em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden; }
+
+.home-menu ul {
+  margin: 10px 0 0 0; }
+
+.main-logo {
+  color: #fff;
+  font-weight: 400;
+  font-size: 120%;
+  width: 215px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url(../img/JAM_logo.png) center center no-repeat;
+  background-size: 175px;
+  height: 100px;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-decoration: none;
+  white-space: nowrap; }
+
+.home-menu a {
+  color: #34495e; }
+
+.home-menu li a:hover,
+.home-menu li a:focus {
+  background: none;
+  border: none;
+  color: #AECFE5; }
+
+/*========================================
+ * SPLASH STYLES
+ ========================================*/
+.splash {
+  background: url(../img/hero-feature-2.jpg) center center; }
+
+.splash-content {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden; }
+
+.splash-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  padding: 1em 1.6em;
+  font-weight: 100;
+  border-radius: 5px;
+  line-height: 1em; }
+
+.splash-subhead {
+  color: white;
+  letter-spacing: 0.05em;
+  opacity: 0.8; }
+
+/*========================================
+ * CONTENT STYLES
+ ========================================*/
+.content-wrapper {
+  min-height: 12%;
+  background: white; }
+
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em; }
+
+.content-head-ribbon {
+  color: white; }
+
+.content-subhead {
+  color: #1f8dd6; }
+
+.content-subhead i {
+  margin-right: 7px; }
+
+.ribbon {
+  background: #2d3e50;
+  color: #aaa; }
+
+.footer {
+  background: #333739; }
+
+#map {
+  height: 250px; }
+
+/*========================================
+ * TABLET (AND UP) MEDIA QUERIES
+ ========================================*/
+@media (min-width: 48em) {
+  body {
+    font-size: 16px; }
+
+  .content {
+    padding: 1em; }
+
+  .home-menu {
+    text-align: left; }
+
+  .home-menu .main-logo {
+    float: left; }
+
+  .home-menu ul {
+    float: right;
+    margin: 30px 0 0 0; }
+
+  .home-menu a {
+    font-size: 20px; }
+
+  .splash-content {
+    width: 60%;
+    height: 50%; }
+
+  .splash-head {
+    font-size: 250%; }
+
+  .l-box-lrg {
+    border: none; } }
+/*========================================
+ * DESKTOP (AND UP) MEDIA QUERIES
+ ========================================*/
+@media (min-width: 78em) {
+  .splash-head {
+    font-size: 300%; } }
