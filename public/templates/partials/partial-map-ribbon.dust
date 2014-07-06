@@ -1,17 +1,21 @@
 
         <div class="ribbon l-box-lrg pure-g">
-            <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-                <img class="pure-img-responsive" alt="File Icons" width="300" src="img/file-icons.png">
+            <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+                <img class="pure-img-responsive" alt="File Icons" src="http://maps.googleapis.com/maps/api/staticmap?center=52.353304,4.852364&zoom=14&size=600x300&maptype=roadmap&markers=color:red|52.353304,4.852364&key=AIzaSyCcaLBVlaVaBpIBL5wzisB7_4ICW90ruJc">
             </div>
-            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
 
-                <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
-
+                <h2 class="content-head content-head-ribbon">Location</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor.
+                    <strong>Address:</strong><br/>
+                    1 - 3 Weissenbruchstraat <br/>
+                    1058 KL Amsterdam<br/>
+                    <strong>Phone:</strong> +31 06 4863 2940
                 </p>
+
+
+
             </div>
+
+
         </div>
