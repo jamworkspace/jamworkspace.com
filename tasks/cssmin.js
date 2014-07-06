@@ -7,12 +7,17 @@ module.exports = function cssmin(grunt) {
 
 	return {
         build: {
-            files: {
-                '.build/css/app.css': ['.build/css/app.css']
-            }
+            expand: true,
+            cwd: '.build/css',
+            src: ['*.css', '!*.min.css'],
+            dest: '.build/css',
+            ext: '.min.css'
         }
 	};
 };
+
+
+
 
 
 

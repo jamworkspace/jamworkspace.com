@@ -7,20 +7,26 @@ module.exports = function copyto(grunt) {
 
     // Options
     return {
-        build: {
+
+        css: {
             files: [
-                { cwd: 'public', src: ['**/*'], dest: '.build/' }
-            ],
-            options: {
-                ignore: [//right now we basically ignore everything, keeping this task around incase we need it later
-                   'public/css/**/*',
-                    'public/components',
-                   'public/components/**/*',
-                   'public/templates/**/*',
-                    'public/js/**/*',
-                    'public/img/**/*'
-                ]
-            }
+                { cwd: 'public/css/', src: ['**/*.css'], dest: '.build/css/' }
+            ]
         }
+        //,build: {
+           // files: [
+             //   { cwd: 'public', src: ['**/*'], dest: '.build/' }
+           // ],
+            //options: {
+              //  ignore: [
+                //   'public/css/**/*',
+                  //  'public/components',
+                 //  'public/components/**/*',
+                   //'public/templates/**/*',
+                   // 'public/js/**/*',
+                   // 'public/img/**/*'
+                //]
+            //}
+        //}
     };
 };

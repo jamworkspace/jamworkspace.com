@@ -11,7 +11,7 @@ module.exports = function (grunt) {
     // Register group tasks
     grunt.registerTask('buildtemplates', [ 'i18n', 'dustjs' ]);
     grunt.registerTask('buildcomponents', [ 'bowercopy' ]);
-    grunt.registerTask('buildcss', [ 'sass', 'concat:css' ,'cssmin:build' ]);
+    grunt.registerTask('buildcss', [ 'sass','copyto:css','concat:css' ,'cssmin:build' ]);
     grunt.registerTask('buildimages', [ 'imagemin' ]);
     grunt.registerTask('buildjs', [ 'concat:js' ,'uglify:build']);
     grunt.registerTask('build', [ 'jshint', 'buildjs','buildcss','buildtemplates', 'buildimages']);

@@ -9,10 +9,10 @@ module.exports = function concat(grunt) {
 	return {
         css: {
             src: [
-                //'public/components/pure/pure-min.css',
-                'public/css/*.css'
+                '.build/css/app.css',//note:we need to explicity list out our depenancies here to obey order
+                '.build/css/test.css'
             ],
-            dest: '.build/css/app.css'
+            dest: '.build/css/app-build.css'//todo:lets add app version number for naming convention
         },
 
         js: {
