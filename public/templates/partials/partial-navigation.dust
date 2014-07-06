@@ -4,7 +4,7 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/membership">Membership</a></li>
+            <li><a href="/join">Join</a></li>
             <li><a href="/setLocale/en-US">English</a></li>
             <li><a href="/setLocale/nl-NL">Dutch</a></li>
             {#user}
