@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     grunt.registerTask('buildcomponents', [ 'bowercopy' ]);
     grunt.registerTask('buildcss', [ 'sass','copyto:css','concat:css' ,'cssmin:build' ]);
     grunt.registerTask('buildimages', [ 'imagemin' ]);
-    grunt.registerTask('buildjs', [ 'concat:js' ,'uglify:build']);
+    grunt.registerTask('buildjs', [ 'copyto:js','concat:js' ,'uglify:build']);
     grunt.registerTask('build', [ 'jshint', 'buildjs','buildcss','buildtemplates', 'buildimages']);
     grunt.registerTask('default', ['build']);
     grunt.registerTask('test', [ 'jshint', 'mochacli' ]);

@@ -24,10 +24,10 @@ module.exports = function concat(grunt) {
                 }
             },
             src: [
-                'public/js/config.js',
-                'public/js/app.js',
+                '.build/js/config.js',
+                '.build/js/app.js',
             ],
-            dest: '.build/js/app.js'
+            dest: '.build/js/app-build.js'
         }
 
 

@@ -7,12 +7,12 @@ module.exports = function uglify(grunt) {
 
 
 	return {
-
-
         build: {
-            files:{
-                '.build/js/app.js': ['.build/js/app.js']
-            }
+            expand: true,
+            cwd: '.build/js',
+            src: ['*.js', '!*.min.js'],
+            dest: '.build/js',
+            ext: '.min.js'
         }
 	};
 };
