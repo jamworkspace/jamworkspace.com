@@ -90,7 +90,7 @@ a.pure-button-primary {
     margin: 10px 0 0 0;
 }
 
-.home-menu.pure-menu.pure-menu-horizontal>.pure-menu-heading {
+.main-logo {
     color: #fff;
     font-weight: 400;
     font-size: 120%;
@@ -103,6 +103,9 @@ a.pure-button-primary {
     padding:0;
     display:block;
     margin:0 auto;
+    vertical-align: middle;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 .home-menu a {
@@ -182,7 +185,7 @@ a.pure-button-primary {
 }
 
 .footer {
-    background: #333;
+    background: #333739;
 }
 
 #map{height:250px;}
@@ -205,7 +208,7 @@ a.pure-button-primary {
         text-align: left;
     }
 
-    .home-menu.pure-menu.pure-menu-horizontal>.pure-menu-heading {
+    .home-menu .main-logo {
         float: left;
     }
 

@@ -1,6 +1,6 @@
 <div class="header">
     <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
-        <a class="pure-menu-heading" href="/">Jam Workspace</a>
+        <a class="main-logo" href="/">Jam Workspace</a>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
