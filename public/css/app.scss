@@ -83,7 +83,7 @@ a.pure-button-primary {
 .home-menu {
     padding: 0.5em;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    position: absolute;
+    overflow:hidden;
 }
 
 .home-menu ul {
@@ -122,23 +122,14 @@ a.pure-button-primary {
 
 .splash-container {
     background: url(../img/hero-feature-2.jpg) center center;
-    z-index: 1;
-    overflow: hidden;
-    width: 100%;
-    height: 88%;
-    top: 0;
-    left: 0;
-    position: absolute;
 }
 
 .splash {
     width: 80%;
-    height: 50%;
     margin: auto;
-    position: absolute;
-    top: 100px; left: 0; bottom: 0; right: 0;
     text-align: center;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 .splash-head {
@@ -162,11 +153,7 @@ a.pure-button-primary {
  * CONTENT STYLES
  ========================================*/
 .content-wrapper {
-    position: absolute;
-    top: 87%;
-    width: 100%;
     min-height: 12%;
-    z-index: 2;
     background: white;
 }
 
