@@ -9,7 +9,7 @@
         {>"partials/partial-splash" /}
 
 
-        <div class="content">
+        <div class="container">
             <h2 class="content-head is-center">Everything you need in one space. Your workspace.</h2>
 
             <div class="pure-g">
