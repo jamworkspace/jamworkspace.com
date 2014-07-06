@@ -35,30 +35,3 @@
         </div>
 
     </div>
-
-
-
-
-
-
-
-
-<div class="mc-field-group size1of2 form-group">
-    <label for="mce-MMERGE3">Phone Number </label>
-    <div class="phonefield phonefield-us form-control">
-        (<span class="phonearea"><input pattern="[0-9]*" id="mce-MMERGE3-area" name="MMERGE3[area]" maxlength="3" size="3" value="" type="text"></span>)
-        <span class="phonedetail1"><input pattern="[0-9]*" id="mce-MMERGE3-detail1" name="MMERGE3[detail1]" maxlength="4" size="4" value="" type="text"></span> -
-        <span class="phonedetail2"><input pattern="[0-9]*" id="mce-MMERGE3-detail2" name="MMERGE3[detail2]" maxlength="4" size="4" value="" type="text"></span>
-        <span class="small-meta nowrap">(###) ####-####</span>
-        <div class="fake-phone"><input type="hidden" class=" phone" id="MMERGE3-fake-phone" value=""></div>
-    </div>
-</div>  <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"><i class="glyphicon glyphicon-remove-sign"></i></div>
-        <div class="response" id="mce-success-response" style="display:none"><i class="glyphicon glyphicon-ok-sign"></i></div>
-    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;">
-
-    <input type="text" name="b_03f88b1ee48eac438fe29d593_0a082512be" tabindex="-1" value="">
-
-
-
