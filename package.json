@@ -1,6 +1,6 @@
 {
   "name": "JAM",
-  "version": "0.1.0",
+  "version": "0.1.0-4",
   "description": "jamworkspace.com",
   "repository": {
     "type": "git",
@@ -61,5 +61,9 @@
     "grunt-contrib-imagemin": "^0.7.1",
     "grunt-contrib-uglify": "^0.5.0",
     "grunt-contrib-cssmin": "^0.10.0"
+  },
+  "subdomain": "jamworkspace",
+  "engines": {
+    "node": "0.10.x"
   }
 }
