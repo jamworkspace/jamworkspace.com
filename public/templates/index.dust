@@ -5,8 +5,8 @@
     {>"partials/partial-navigation" /}
 
     <div class="content-wrapper">
-        <div class="content splash-container">
-            <div class="splash">
+        <div class="splash">
+            <div class="splash-content">
                 <h1 class="splash-head">Workspace + Kids</h1>
                 <p class="splash-subhead">
                     A community focused co-working environment for you.

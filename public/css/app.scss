@@ -120,11 +120,11 @@ a.pure-button-primary {
  * SPLASH STYLES
  ========================================*/
 
-.splash-container {
+.splash {
     background: url(../img/hero-feature-2.jpg) center center;
 }
 
-.splash {
+.splash-content {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -218,7 +218,7 @@ a.pure-button-primary {
         font-size:20px;
     }
 
-    .splash {
+    .splash-content {
         width: 60%;
         height: 50%;
     }
