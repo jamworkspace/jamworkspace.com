@@ -4,8 +4,10 @@ var IndexModel = require('../models/index'),
     ProfileModel = require('../models/profile'),
     AdminModel = require('../models/admin'),
     AboutModel = require('../models/about'),
-    JoinModel = require('../models/join'),
-    auth = require('../lib/auth');
+    MembershipsModel = require('../models/memberships'),
+    ProgramsModel = require('../models/programs'),
+    auth = require('../lib/auth'),
+    EventsModel = require('../models/events');
 
 module.exports = function (router) {
 
@@ -13,7 +15,9 @@ module.exports = function (router) {
         profileModel = new ProfileModel(),
         adminModel = new AdminModel(),
         aboutModel = new AboutModel(),
-        joinModel = new JoinModel();
+        membershipsModel = new MembershipsModel(),
+        programsModel = new ProgramsModel(),
+        eventsModel = new EventsModel();
 
     router.get('/', function (req, res) {
         res.render('index', indexModel);
@@ -32,8 +36,16 @@ module.exports = function (router) {
         res.render('about', aboutModel);
     });
 
-    router.get('/join', function(req, res) {
-        res.render('join', joinModel);
+    router.get('/memberships', function(req, res) {
+        res.render('memberships', membershipsModel);
+    });
+
+    router.get('/programs', function(req, res) {
+        res.render('programs', programsModel);
+    });
+
+    router.get('/events', function(req, res) {
+        res.render('events', eventsModel);
     });
 
     router.get('/logout', function (req, res) {

@@ -37,6 +37,10 @@ label {
 .is-center {
   text-align: center; }
 
+.container {
+  width: 85%;
+  margin: 0 auto; }
+
 /*========================================
  * FORM STYLES
  ========================================*/
