@@ -1,13 +1,15 @@
 <div class="container">
-  <div class="header">
-      <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
-          <a class="main-logo" href="/">Jam Workspace</a>
+  <div class="header clearfix">
+    <a class="main-logo" href="/">Jam Workspace</a>
+      <div class="languages">
+        <li class="lang english"><a href="/setLocale/en-US"><img src="img/United-States.png"></a></li>
+        <li class="lang dutch"><a href="/setLocale/nl-NL"><img src="img/Netherlands.png"></a></li>
+      </div>
+      <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal clearfix">
           <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/join">Join</a></li>
-              <li><a href="/setLocale/en-US">English</a></li>
-              <li><a href="/setLocale/nl-NL">Dutch</a></li>
               {#user}
                   {@eq key=role value="admin"}
                    <li><a href="/admin">Admin</a></li>
