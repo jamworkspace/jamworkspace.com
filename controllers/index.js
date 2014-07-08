@@ -20,7 +20,7 @@ module.exports = function (router) {
         eventsModel = new EventsModel();
 
     router.get('/', function (req, res) {
-        res.render('temp-index', indexModel);
+        res.render('index', indexModel);
     });
 
     router.get('/profile', function(req, res) {
