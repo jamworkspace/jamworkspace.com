@@ -20,9 +20,20 @@ h6,
 label {
   color: #34495e; }
 
+a {
+  text-decoration: none; }
+
 .pure-img-responsive {
   max-width: 100%;
   height: auto; }
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " "; }
+
+.clearfix:after {
+  clear: both; }
 
 /*========================================
  * LAYOUT STYLES
@@ -73,13 +84,12 @@ a.pure-button-primary {
  ========================================*/
 .home-menu {
   padding: 0.5em;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  overflow: hidden; }
-
-.home-menu ul {
-  margin: 10px 0 0 0; }
+  /*overflow:hidden;*/ }
+  .home-menu ul {
+    margin: 10px 0 0 0; }
 
 .main-logo {
+  float: left;
   color: #fff;
   font-weight: 400;
   font-size: 120%;
@@ -104,6 +114,18 @@ a.pure-button-primary {
   background: none;
   border: none;
   color: #AECFE5; }
+
+.languages {
+  float: right; }
+  .languages li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    height: 25px;
+    margin: 0 0 0 10px;
+    padding: 0; }
+    .languages li img {
+      width: 30px; }
 
 /*========================================
  * SPLASH STYLES
@@ -183,7 +205,7 @@ a.pure-button-primary {
 
   .home-menu ul {
     float: right;
-    margin: 30px 0 0 0; }
+    margin: 35px -99px 0 0; }
 
   .home-menu a {
     font-size: 20px; }
