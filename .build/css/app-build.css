@@ -9,6 +9,7 @@
 body {
   line-height: 1.7em;
   color: #7f8c8d;
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px; }
 
 h1,
@@ -163,7 +164,7 @@ a.pure-button-primary {
   background: white; }
 
 .content-head {
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 2em 0 1em; }
@@ -172,6 +173,7 @@ a.pure-button-primary {
   color: white; }
 
 .content-subhead {
+  font-weight: 400;
   color: #1f8dd6; }
 
 .content-subhead i {
