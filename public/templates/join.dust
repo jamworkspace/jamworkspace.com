@@ -1,0 +1,26 @@
+{>"layouts/master" /}
+
+{<body}
+
+    {>"partials/partial-navigation" /}
+    <div class="content">
+        <h1>Join</h1>
+
+
+<p>Membership packages opening soon! Contact us for detailed information. </p>
+
+<p><a href="mailto:info@jamworkspace.com">info@jamworkspace.com</a><br/>
++31 06 4863 2940</p>
+
+<p>Facebook: <a href="http://facebook.com/jamworkspace">facebook.com/jamworkspace</a><br/>
+Twitter:     <a href="http://twitter.com/jamworkspace">twitter.com/jamworkspace</a></p>
+
+
+
+
+
+
+    </div>
+    {>"partials/partial-footer" /}
+{/body}
+

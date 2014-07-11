@@ -7,7 +7,8 @@ var IndexModel = require('../models/index'),
     MembershipsModel = require('../models/memberships'),
     ProgramsModel = require('../models/programs'),
     auth = require('../lib/auth'),
-    EventsModel = require('../models/events');
+    EventsModel = require('../models/events'),
+    JoinModel = require('../models/join');
 
 module.exports = function (router) {
 
@@ -17,7 +18,8 @@ module.exports = function (router) {
         aboutModel = new AboutModel(),
         membershipsModel = new MembershipsModel(),
         programsModel = new ProgramsModel(),
-        eventsModel = new EventsModel();
+        eventsModel = new EventsModel(),
+       joinModel = new JoinModel();
 
     router.get('/', function (req, res) {
         res.render('index', indexModel);
@@ -42,6 +44,10 @@ module.exports = function (router) {
 
     router.get('/programs', function(req, res) {
         res.render('programs', programsModel);
+    });
+
+    router.get('/join', function(req, res) {
+        res.render('join', joinModel);
     });
 
     router.get('/events', function(req, res) {
