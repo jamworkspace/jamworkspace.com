@@ -9,7 +9,7 @@
 
 body {
     line-height: 1.7em;
-    color: #000000;
+    color: #4c4c4c;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
@@ -61,7 +61,7 @@ a {
 }
 
 .container {
-    width: 960px;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -290,6 +290,9 @@ a.pure-button-primary {
 
     .splash-head {
         font-size: 300%;
+    }
+    .container{
+        width:960px;
     }
 
 }
