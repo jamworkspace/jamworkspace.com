@@ -3,7 +3,7 @@
 {<body}
 
     {>"partials/partial-navigation" /}
-    <div class="content">
+    <div class="content container">
         <h1>Corporate Programs</h1>
 
 

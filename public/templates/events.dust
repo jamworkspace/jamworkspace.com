@@ -2,7 +2,7 @@
 {<body}
 
     {>"partials/partial-navigation" /}
-    <div class="content">
+    <div class="content container">
         <h1>Events</h1>
 
 

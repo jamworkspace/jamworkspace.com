@@ -5,11 +5,7 @@
     "jamworkspace.com",
     "www.jamworkspace.com"
   ],
-<<<<<<< HEAD
-  "version": "0.1.0-18",
-=======
-  "version": "0.1.0-17",
->>>>>>> fa448ab717788ba9428fd7906f1ce280fac38e66
+  "version": "0.1.0-19",
   "description": "jamworkspace.com",
   "repository": {
     "type": "git",

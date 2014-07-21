@@ -8,8 +8,8 @@
 
 body {
   line-height: 1.7em;
-  color: #7f8c8d;
-  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 13px; }
 
 h1,
@@ -50,7 +50,7 @@ a {
   text-align: center; }
 
 .container {
-  width: 85%;
+  width: 960px;
   margin: 0 auto; }
 
 /*========================================
@@ -179,12 +179,18 @@ a.pure-button-primary {
 .content-subhead i {
   margin-right: 7px; }
 
+.profile {
+  width: 200px;
+  float: left;
+  margin: 10px; }
+
 .ribbon {
   background: #2d3e50;
   color: #aaa; }
 
 .footer {
-  background: #333739; }
+  background: #efefef;
+  min-height: 200px; }
 
 #map {
   height: 250px; }
