@@ -234,7 +234,7 @@ header {
 .intro {
     height: 100%;
     width: 100%;
-    background: url(../img/hero-jam.jpg) no-repeat center top fixed;
+    background: url(../img/hero-jam-1600x1019.jpg) no-repeat center top fixed;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
@@ -257,7 +257,7 @@ header {
     z-index: 28;
     position: relative;
     color: #fff;
-    padding-top: 170px;
+    padding-top: 60px;
 }
 
 .overlay {
@@ -282,11 +282,11 @@ header {
     display: block;
     position: absolute;
     top: -113px;
-    left: 165px;
+    left: -119px;
     z-index: 10;
-    width: 980px;
-    height: 100%;
-    opacity: .9;
+    width: 1000px;
+    height: 700px;
+    opacity: .7;
 }
 
 .border {
@@ -308,7 +308,7 @@ header {
 
 #home .border {
     background: #fff;
-    margin: 20px 0 51px 0;
+    margin: 5px 0 25px 0;
 }
 
 footer {
@@ -865,12 +865,12 @@ footer p a {
 }
 
 .paz {
-    background: url('http://jamworkspace.com/img/paz-profile.jpg') no-repeat;
+    background: url('../img/paz-profile.jpg') no-repeat;
     background-size: 100%;
     background-position: 0px -14px;
 }
 
 .kirsty {
-    background: url('http://akoaotearoa.ac.nz/sites/default/files/Rhonda%20Thomson%20and%20Dr%20Kirsty%20Weir.png') no-repeat;
+    background: url('../img/kirsty-profile.jpg') no-repeat;
     background-position: -295px -92px;
 }

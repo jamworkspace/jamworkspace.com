@@ -13,6 +13,17 @@
 </head>
 <body>
 
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">
+    <div class="parent">
+      <div class="child">
+        <p class="small">loading...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end preloader -->
 <section class="intro section" id="home" data-speed="10" data-type="background">
   <div class="overlay"></div>
   <div id="topmargin">
@@ -21,7 +32,7 @@
                 <span class="block">+ Kids </span></h2>
         <div class="border"></div>
         <p><span class="block">A community focused co-working environment for you.</span> <br/><span class="block">Get connected and collaborate </span><br/><span class="block">with other creative people. </span></p>
-        <a href="#join" class="nav-item pure-button pure-button-cta">Get started</a>
+
     </div>
   </div>
 </section>
@@ -37,7 +48,7 @@
           <li><a class="nav-item" href="#about">About</a></li>
           <li><a class="nav-item" href="#programs">Programs</a></li>
           <li><a class="nav-item" href="#contact">Contact</a></li>
-          <li><a href="#join" class="external">Facebook <span class="arrow">→</span></a> </li>
+          <li><a href="http://facebook.com/jamworkspace" class="external">Facebook <span class="arrow">→</span></a> </li>
         </ul>
       </nav>
   </div>
@@ -198,19 +209,8 @@ Each woman brings a special pizzazz, and background to the team! After meeting t
 </footer>
 
 
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">
-    <div class="parent">
-      <div class="child">
-        <p class="small">loading...</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end preloader -->
 
-<script src="http://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
 
  <script type="text/javascript" src="js/app-build.min.js"></script>
 
