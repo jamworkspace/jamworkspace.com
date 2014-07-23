@@ -498,8 +498,10 @@ function ssc_overflowingAncestor(e) {
                 return ssc_setCache(t, document.body)
             }
         } else if (e.clientHeight + 10 < e.scrollHeight) {
+            var overflow = '';
             overflow = getComputedStyle(e, "").getPropertyValue("overflow");
-            if (overflow === "scroll" || overflow === "auto") {
+
+            if (overflow && (overflow === "scroll" || overflow === "auto")) {
                 return ssc_setCache(t, e)
             }
         }
