@@ -25,8 +25,9 @@
 </div>
 <!-- end preloader -->
 <section class="intro section" id="home" data-speed="10" data-type="background">
-  <div class="overlay"></div>
+
   <div id="topmargin">
+
     <div id="intro-text" class="container">
         <h2><span class="block">Workspace</span><br />
                 <span class="block">+ Kids </span></h2>

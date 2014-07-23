@@ -251,6 +251,12 @@ header {
   height: 700px;
   opacity: .7; }
 
+.block {
+  text-shadow: 0 0 50px #000; }
+
+p .block {
+  background-color: rgba(0, 0, 0, 0.2); }
+
 .border {
   height: 4px;
   width: 81px;
