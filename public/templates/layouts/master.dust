@@ -47,7 +47,7 @@
         <ul id="nav">
           <li><a class="nav-item" href="#home">Home</a></li>
           <li><a class="nav-item" href="#about">About</a></li>
-          <li><a class="nav-item" href="#programs">Programs</a></li>
+          <li><a class="nav-item" href="#memberships">Memberships</a></li>
           <li><a class="nav-item" href="#contact">Contact</a></li>
           <li>
 
@@ -68,14 +68,14 @@
 </header>
 <!-- end header -->
 <section class="section strip clearfix dark-blue" id="about">
-  <div class="container vision">
+  <div class="container about">
 
-
-
-
-      <h4 class="textcenter">Jam Workspace Story</h4>
 
  <img class="imageright padded" src="../img/vision.jpg" width='350'/>
+
+      <h4>Jam Workspace Story</h4>
+
+
 <p>We created Jam workspace because we needed it, and we know others do too.</p>
 
     <p class='small'>Imagine moving to the other side of the world with a young
@@ -138,29 +138,18 @@ photo, we clearly love children too). </p>
   </div>
 </section>
 
-
-<section class="section dark-blue strip" id="subscribe">
+<section class="section dark-gray strip" id="memberships">
   <div class="container">
 
-<h5>Ignite your passion for work.</h5>
-<form class="pure-form pure-form-ignite" action="http://jamworkspace.us8.list-manage.com/subscribe/post?u=03f88b1ee48eac438fe29d593&amp;id=0a082512be" method="post" target="_blank">
-                    <fieldset>
-
-
-
-
-
-                        <input id="email" name="EMAIL" type="email" class='input-ignite' placeholder="Your Email">
-
-
-
-                        <button type="submit" class="pure-button pure-button-ignite">Get Updates</button>
-                    </fieldset>
-                </form>
-
+<h4>Programs & Memberships</h4>
+<p class="small">Become a member and reserve your space today; our doors are opening October 1st, and our community is already growing.  Many highly qualified candidates turn down expat job opportunities due to the uncertainty for their spouse/partern. Since smart people, normally marry smart people with careers, this is a large hurdle for companies to overcome when scouting and recruiting.  Contact us and we will discuss our packages in detail and what Jam Workspace can do for you. </p><p class="small">With meeting space already sold and people being inspired, this is a great time to contact us today. </p>
 
   </div>
 </section>
+
+
+
+
 
 
 
@@ -184,18 +173,29 @@ photo, we clearly love children too). </p>
 </section>
 
 
-<section class="section dark-gray strip" id="programs">
+
+<section class="section dark-blue strip" id="subscribe">
   <div class="container">
 
-<h4>Programs & Memberships</h4>
-<p class="small">Become a member and reserve your space today; our doors are opening October 1st, and our community is already growing.  Many highly qualified candidates turn down expat job opportunities due to the uncertainty for their spouse/partern. Since smart people, normally marry smart people with careers, this is a large hurdle for companies to overcome when scouting and recruiting.  Contact us and we will discuss our packages in detail and what Jam Workspace can do for you. </p><p class="small">With meeting space already sold and people being inspired, this is a great time to contact us today. </p>
+<h5>Ignite your passion for work.</h5>
+<form class="pure-form pure-form-ignite" action="http://jamworkspace.us8.list-manage.com/subscribe/post?u=03f88b1ee48eac438fe29d593&amp;id=0a082512be" method="post" target="_blank">
+                    <fieldset>
+
+
+
+
+
+                        <input id="email" name="EMAIL" type="email" class='input-ignite' placeholder="Your Email">
+
+
+
+                        <button type="submit" class="pure-button pure-button-ignite">Get Updates</button>
+                    </fieldset>
+                </form>
+
 
   </div>
 </section>
-
-
-
-
 
 
 <section class="section" id="contact">
