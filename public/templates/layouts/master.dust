@@ -190,11 +190,68 @@ Each woman brings a special pizzazz, and background to the team! After meeting t
 </section>
 
 
-<section class="section " id="contact">
+
+
+
+
+<section class="section" id="contact">
   <div class="container">
 
-<h4>Contact</h4>
-<p class="small">We look forward to answering your questions!</p><p class="small"><a href="mailto:info@jamworkspace.com">info@jamworkspace.com</a><br>+31 06 4863 2940<br/>Facebook: <a href="http://facebook.com/jamworkspace">facebook.com/jamworkspace</a><br>Twitter:     <a href="http://twitter.com/jamworkspace">twitter.com/jamworkspace</a></p>
+
+
+
+
+
+ <div class="pure-g">
+            <div class="pure-u-1-3">
+
+               <h4>Contact</h4>
+<p class="small">We are located in the Old-South of Amsterdam, with a park across the road.  Easily accessible by bike or public transport.</p>
+
+<p class="small address"><strong>E-Mail:  </strong><a href="mailto:info@jamworkspace.com">info@jamworkspace.com</a><br><strong>Phone:  </strong><a href="tel:31 06 4863 2940">+31 06 4863 2940</a>
+
+
+
+</p>
+
+<p class="social-media">
+<a href="http://twitter.com/jamworkspace" target="_blank"><i class="fa fa-twitter"></i></a>
+<a href="https://www.linkedin.com/company/jam-workspace?trk=biz-companies-cym" target="_blank"><i class="fa fa-linkedin"></i></a>
+<a href="http://facebook.com/jamworkspace" target="_blank"><i class="fa fa-facebook"></i></a>
+<a href="https://plus.google.com/u/0/b/118360447539234344642/118360447539234344642/posts" target="_blank"><i class="fa fa-google"></i></a>
+
+
+</p>
+
+            </div>
+
+
+            <div class="pure-u-1-3">
+<h4>Getting There</h4>
+
+<ul class="small getting-there">
+
+<li><strong>Bus #15</strong> - <em>Haarlemmermeerstraat, Amsterdam</em></li>
+<li><strong>Tram #2</strong> - <em>Hoofddorpplein, Amsterdam</em></li>
+</ul>
+
+  </div>
+
+
+            <div class="pure-u-1-3">
+
+
+<img src="http://maps.googleapis.com/maps/api/staticmap?center=52.353622,4.851354&zoom=14&size=300x250&maptype=roadmap&markers=color:purple%7Clabel:%7C52.353622,4.851354"/>
+
+
+            </div>
+
+
+
+  </div>
+
+
+
 
   </div>
 </section>
@@ -202,10 +259,28 @@ Each woman brings a special pizzazz, and background to the team! After meeting t
 
 
 
+<footer id="contact">
+  <div class="container textcenter">
 
-<footer>
-  <div class="container">
-    <p><span class="alignleft small">© 2014, Jam Workspace. All Rights Reserved.</span> <span class="alignright small">Connect with us: <a href="#" title="">Twitter</a> | <a href="#" title="">Facebook</a></span></p>
+<p>
+
+<span class="small alignleft">© 2014, Jam Workspace. All Rights Reserved.</span><br/>
+    <span class="small alignright"><a class="nav-item" href="#home">Home</a> | <a class="nav-item" href="#about">About</a> | <a class="nav-item" href="#programs">Programs</a> | <a class="nav-item" href="#contact">Contact</a></span>
+
+
+
+
+
+ </p>
+
+
+
+
+
+
+
+
+
   </div>
 </footer>
 

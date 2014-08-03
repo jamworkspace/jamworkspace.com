@@ -685,3 +685,25 @@ footer p a {
   background: url("../img/kirsty-profile.jpg") no-repeat;
   background-position: -295px -92px; }
 
+.social-media a {
+  border: none;
+  font-size: 36px;
+  background: #00b5ef;
+  color: #fff;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  border-radius: 47px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  padding: 0; }
+
+.social-media a:hover {
+  background: #00b5ef;
+  opacity: .5; }
+
+.getting-there li {
+  margin: 0 0 10px 0; }
+
