@@ -67,14 +67,30 @@
   </div>
 </header>
 <!-- end header -->
-<section class="section strip" id="vision">
-  <div class="container textcenter">
-
-      <h4>Vision</h4>
-
-      <p>Jam Workspace is a flexible co-working space that provides community building activities at one location. Our vision is to empower individuals to create great things, and work the way they’ve always dreamt.  Jam Workspace provides a new way of working, living, and creating community.</p>
+<section class="section strip clearfix dark-blue" id="about">
+  <div class="container vision">
 
 
+
+
+      <h4 class="textcenter">Jam Workspace Story</h4>
+
+ <img class="imageright padded" src="../img/vision.jpg" width='350'/>
+<p>We created Jam workspace because we needed it, and we know others do too.</p>
+
+    <p class='small'>Imagine moving to the other side of the world with a young
+family as a ‘trailing spouse’. You strive to maintain your own
+professional aspirations or even want to try something new, like
+a new business…
+</p>
+
+<p class='small'>Maybe you don’t have to imagine this scenario because it is the
+life you are currently living. So were we! In fact, we designed
+Jam Workspace specifically with you in mind; an innovator
+looking for a workspace that is more than a desk and chair. We
+proudly cater for self-starters like you. And having children? No
+problem, we offer child-minding while you work (check out our
+photo, we clearly love children too). </p>
 
 
 
@@ -149,43 +165,19 @@
 
 
 
-<section class="section" id="about">
-  <div class="container textcenter">
-      <h4>Our Story</h4>
-
-
-
-<p >Jam Workspace was created by two women from two very different parts of the globe (America, and New Zealand). Each were independently looking for a professional community that inspired innovation and comradery.</p><p>
-
-Each woman brings a special pizzazz, and background to the team! After meeting them, you will get it! The uniqueness of each co-founder has been instrumental in creating the amazing space that is the Jam Workspace.
-
-</p>
-
-
-
-
-
- <div class="pure-g">
-            <div class="pure-u-1-2 textcenter">
-               <div class="circular paz"></div>
-                <h4>Paz</h4>
-                <p class="small">Paz spends her days split between Master Mind Groups, sharing the vision of Jam Workspace, and ensuring the community at Jam Workspace is inviting, encouraging, and fun!</p>
-            </div>
-            <div class="pure-u-1-2 textcenter">
-               <div class="circular kirsty"></div>
-                <h4>Kirsty</h4>
-                <p class="small">By trade Kirsty is a researcher (educational/psychological), and most of her experience is in relationship management, project management and program evaluation.
-
-</p>
-            </div>
-
-
-
-
+<section class="section slim clearfix" id="people">
+  <div class="container">
+     <div class="pure-g">
+        <div class="pure-u-1-2">
+            <img class="slim" src="../img/people.jpg"/>
         </div>
-
-
-
+        <div class="pure-u-1-2">
+            <div class="about-people">
+                <h4>Meet Kirsty & Paz</h4>
+                <p class='small'>From distant corners of the world these women put their 25+ years experience together to form Jam Workspace. Kirsty with experience in research (educational/psychological), relationship management, project management and program evaluation. What she loves seeing is sothers step out of their comfort zone and succeed.</p> <p class='small'>Paz's experience lies in community development, and cross cultural relationships. What inspires Paz is seeing other people grow and develop, especially women. </p>
+            </div>
+        </div>
+      </div>
 
 
   </div>
