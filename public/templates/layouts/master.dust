@@ -49,7 +49,19 @@
           <li><a class="nav-item" href="#about">About</a></li>
           <li><a class="nav-item" href="#programs">Programs</a></li>
           <li><a class="nav-item" href="#contact">Contact</a></li>
-          <li><a href="http://facebook.com/jamworkspace" class="external">Facebook <span class="arrow">→</span></a> </li>
+          <li>
+
+<span class="social-media">
+<a href="http://twitter.com/jamworkspace" target="_blank"><i class="fa fa-twitter"></i></a>
+<a href="https://www.linkedin.com/company/jam-workspace?trk=biz-companies-cym" target="_blank"><i class="fa fa-linkedin"></i></a>
+<a href="http://facebook.com/jamworkspace" target="_blank"><i class="fa fa-facebook"></i></a>
+<a href="https://plus.google.com/u/0/b/118360447539234344642/118360447539234344642/posts" target="_blank"><i class="fa fa-google"></i></a>
+
+
+</span>
+
+
+          </li>
         </ul>
       </nav>
   </div>
