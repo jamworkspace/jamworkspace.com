@@ -2,10 +2,11 @@ html {
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  font-family: 'Raleway', sans-serif; }
 
 body {
-  font: 18px "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
   color: #555;
   position: absolute;
   height: 100%;
@@ -99,7 +100,7 @@ h3 {
 
 h4 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 200;
   color: #2b2b2b;
   line-height: 27px;
   text-transform: uppercase;
@@ -113,7 +114,7 @@ article h4 {
 
 h5 {
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 200;
   color: #2b2b2b;
   line-height: 22px;
   padding: 0px 0px 17px 0;
@@ -124,8 +125,7 @@ ul.unordered-list, .hentry ul {
   list-style: disc;
   padding: 0px 10px 27px 0;
   line-height: 1.5;
-  margin-left: 24px;
-  font-family: 'Merriweather', Georgia, "Times New Roman", Times, serif; }
+  margin-left: 24px; }
 
 nav {
   margin: 0px auto;
@@ -146,7 +146,6 @@ nav {
 #nav li a {
   padding: 5px;
   color: #8d8d8d;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-decoration: none;
@@ -294,7 +293,7 @@ img.slim {
   float: left; }
 
 .about-people {
-  padding: 20px; }
+  padding: 40px 20px; }
 
 #home .border {
   background: #fff;
@@ -316,13 +315,6 @@ footer p a {
   color: #555;
   border: 0; }
 
-.pure-button-cta {
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid white;
-  float: right;
-  margin: 73px; }
-
 .pure-button-ignite {
   background: #95c94f;
   padding: 20px;
@@ -334,17 +326,20 @@ footer p a {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   box-shadow: none;
-  border-radius: 0; }
+  border-radius: 0;
+  margin: 0 0 0 10px;
+  font-family: 'Raleway', sans-serif; }
 
 .pure-form input[type=email].input-ignite {
   background-color: rgba(255, 255, 255, 0.1);
   border: solid 1px #fff;
   padding: 20px;
-  width: 50%;
+  width: 60%;
   color: #fff;
   border-radius: none;
   box-shadow: none;
-  border-radius: 0; }
+  border-radius: 0;
+  font-family: 'Raleway', sans-serif; }
 
 .pure-form-ignite {
   width: 600px;
@@ -369,14 +364,12 @@ footer p a {
   margin-top: -110px; }
 
 #preloader p.small {
-  font-size: 11px;
+  font-size: 16px;
   display: block;
   text-transform: uppercase;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 200;
   letter-spacing: 1px;
-  /*margin-top:-3px;*/
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   padding: 0 !important; }
 
 .parent {
@@ -637,22 +630,21 @@ footer p a {
     height: 170px;
     width: 300px; } }
 .icon {
-  height: 175px;
-  width: 175px;
-  line-height: 175px;
+  line-height: 150px;
   max-width: 100%;
-  background: #3dc9b3;
   border-radius: 50%;
   -o-border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   display: block;
-  color: #fff;
   font-size: 55px;
   text-align: center;
   vertical-align: middle;
   position: relative;
-  margin: 0 auto 50px; }
+  margin: 0 auto; }
+
+.callout {
+  padding: 40px 0; }
 
 .strip {
   background: #efefef;
@@ -774,3 +766,53 @@ footer p a {
   width: 350px;
   padding: 10px;
   background: white; }
+
+.packages {
+  text-align: center;
+  margin: 0 10px;
+  min-height: 375px;
+  background: #fff; }
+
+.package {
+  min-height: 60px; }
+
+.packages:first-child {
+  margin: 0 0 0 10px; }
+
+.packages:last-child {
+  margin: 0 10px 0 0; }
+
+.packages thead th,
+.packages thead {
+  background: transparent;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 26px; }
+
+.packages .price {
+  background: #F2F2F2;
+  font-size: 34px; }
+
+.packages .price span {
+  font-size: 12px; }
+
+.packages .features ul {
+  list-style: none; }
+
+.button-choose {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  font-weight: 200;
+  position: relative; }
+
+.feature {
+  font-size: 14px; }
+
+.pure-g [class*="pure-u"] {
+  font-family: 'Raleway', sans-serif; }
+
+.service p {
+  padding: 0 20px;
+  font-size: 16px; }
