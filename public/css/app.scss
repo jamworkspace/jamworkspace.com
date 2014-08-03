@@ -905,13 +905,18 @@ padding: 0;
 
 }
 
+#nav li .social-media{
 
+border-left: 1px solid #e0e0e0;
+display: block;
+float: left;
+padding: 0 0 0 25px;
+}
 
 #nav li .social-media a {
 border: none;
 font-size: 16px;
-background: #00b5ef;
-color: #fff;
+background:none;
 display: block;
 float: left;
 margin: 0 10px 0 0;
@@ -922,6 +927,12 @@ text-align: center;
 line-height: 27px;
 padding: 0;
 
+
+
+
 }
-
-
+#nav li .social-media a:hover{
+    background: #00b5ef;
+    opacity: .5;
+    color:#fff;
+}
