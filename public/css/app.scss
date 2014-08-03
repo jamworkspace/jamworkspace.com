@@ -129,7 +129,7 @@ h4:after{
     margin:10px 0 10px 0;
 
 }
-
+h4.textcenter:after,
 .textcenter h4:after{margin-left:auto;margin-right:auto;}
 
 h5 {
@@ -302,6 +302,17 @@ header {
 .block{text-shadow:0 0 50px #000;}
 
 p .block{background-color:rgba(0,0,0,.3);line-height:1.5em;}
+
+
+
+.story p .spark {
+padding: 0 5px;
+border-bottom: dotted 1px;
+line-height: 1.5em;
+background: none;
+color: black;
+}
+
 .border {
     height: 4px;
     width: 81px;
@@ -378,11 +389,11 @@ footer p a {
 }
 
 .pure-form input[type=email].input-ignite {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: solid 1px #fff;
+    background-color: #fff;
+    border: solid 1px #ccc;
     padding: 20px;
     width: 60%;
-    color: #fff;
+
     border-radius: none;
     box-shadow: none;
     border-radius: 0;
@@ -829,6 +840,16 @@ footer p a {
     border: none;
 }
 .slimmer{padding:20px 0;}
+
+.slimmer p{line-height:0;font-size:24px;color:#fff;text-align:center;}
+
+.static.slimmer{
+background: url(../img/hero-jam-1600x1019.jpg) no-repeat center bottom fixed;
+background-size: cover;
+text-shadow: 0 0 50px #000;
+}
+
+
 .light-blue {
     background-color: #00b5ef;
 }
@@ -838,9 +859,11 @@ footer p a {
 }
 
 .light-gray {
-    background-color: #e7e4e2;
+    background-color: #999;
 }
-
+.dim-gray {
+    background-color: #ddd;
+}
 .medium-gray {
     background-color: #a7a9ab;
 }
@@ -971,7 +994,7 @@ padding: 0;
 .imageright{float:right;margin:0 0 0 20px;}
 
 .padded{
-width: 350px;
+
 padding: 10px;
 background: white;
 }

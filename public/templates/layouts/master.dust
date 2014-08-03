@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>{+title /}</title>
+    <title>Coworking - Amsterdam - Jam Workspace</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,600' rel='stylesheet' type='text/css' />
 
@@ -37,7 +37,7 @@
         <h2><span class="block">Workspace</span><br />
                 <span class="block">+ Kids </span></h2>
         <div class="border"></div>
-        <p><span class="block">A community focused co-working environment for you.</span> <br/><span class="block">Get connected and collaborate </span><br/><span class="block">with other creative people. </span></p>
+        <p><span class="block">A community focused coworking environment for you.</span> <br/><span class="block">Get connected and collaborate </span><br/><span class="block">with other creative people. </span></p>
 
     </div>
   </div>
@@ -73,30 +73,18 @@
   </div>
 </header>
 <!-- end header -->
-<section class="section strip clearfix dark-blue" id="about">
+<section class="section strip clearfix story" id="about">
   <div class="container about">
 
 
- <img class="imageright padded" src="../img/vision.jpg" width='350'/>
+ <img class="imageright padded" src="../img/vision.jpg" width='250'/>
 
       <h4>Jam Workspace Story</h4>
 
-
-<p>We created Jam workspace because we needed it, and we know others do too.</p>
-
-    <p>Imagine moving to the other side of the world with a young
-family as a ‘trailing spouse’. You strive to maintain your own
-professional aspirations or even want to try something new, like
-a new business…
+    <p><span class="spark">Imagine</span> moving to the other side of the world with a young family as a ‘trailing spouse’. You <span class="spark">strive</span> to maintain your own professional <span class="spark">aspirations</span> or even want to try something new, like a new business…
 </p>
 
-<p>Maybe you don’t have to imagine this scenario because it is the
-life you are currently living. So were we! In fact, we designed
-Jam Workspace specifically with you in mind; an innovator
-looking for a workspace that is more than a desk and chair. We
-proudly cater for self-starters like you. And having children? No
-problem, we offer child-minding while you work (check out our
-photo, we clearly love children too). </p>
+<p>Maybe you don’t have to imagine this scenario because it is the life you are currently living. So were we! In fact, we designed Jam Workspace specifically with you in mind; an <span class="spark">innovator</span> looking for a workspace that is more than a desk and chair. We proudly cater for self-starters like <span class="spark">you</span>. And having children? No problem, we offer child-minding while you work (check out our photo, we clearly <span class="spark">love children</span> too). </p>
 
 
 
@@ -105,9 +93,15 @@ photo, we clearly love children too). </p>
 </section>
 
 
-<section class="section" id="services">
-  <div class="container">
 
+
+
+
+
+
+<section class="section textcenter" id="services">
+  <div class="container">
+<h4>What we do</h4>
 
  <div class="pure-g">
             <div class="pure-u-1-3 textcenter service">
@@ -144,6 +138,15 @@ photo, we clearly love children too). </p>
   </div>
 </section>
 
+
+
+
+<section class="section strip light-gray slimmer static" id="subscribe">
+  <div class="container">
+
+<p>We created Jam workspace because we needed it, and we know others do too.</p>
+
+  </div></section>
 <section class="section strip" id="plans">
   <div class="container textcenter">
 
@@ -270,9 +273,52 @@ photo, we clearly love children too). </p>
 
 
 
+<section class="section" id="services">
+  <div class="container">
+<h4 class="textcenter">Services</h4>
 
 
-<section class="section slim clearfix" id="people">
+ <div class="pure-g">
+        <div class="pure-u-1-3">
+            <ul>
+
+                <li>Event Hosting</li>
+
+            <li>Mastermind Groups</li>
+
+            </ul>
+        </div>
+
+
+        <div class="pure-u-1-3">
+            <ul>
+
+                <li>Child-minding</li>
+
+            <li>Networking</li>
+
+            </ul>
+        </div>
+
+
+        <div class="pure-u-1-3">
+            <ul>
+
+                <li>Business Services</li>
+
+            <li>Meeting/Community Room</li>
+
+            </ul>
+        </div>
+
+ </div>
+
+  </div>
+</section>
+
+
+
+<section class="section slim clearfix strip" id="people">
   <div class="container">
      <div class="pure-g">
         <div class="pure-u-1-2">
@@ -292,27 +338,13 @@ photo, we clearly love children too). </p>
 
 
 
-<section class="section dark-gray strip slimmer" id="subscribe">
-  <div class="container">
-
-<form class="pure-form pure-form-ignite" action="http://jamworkspace.us8.list-manage.com/subscribe/post?u=03f88b1ee48eac438fe29d593&amp;id=0a082512be" method="post" target="_blank">
-                    <fieldset>
 
 
 
 
 
-                        <input id="email" name="EMAIL" type="email" class='input-ignite' placeholder="Your Email">
 
 
-
-                        <button type="submit" class="pure-button pure-button-ignite">Get Updates</button>
-                    </fieldset>
-                </form>
-
-
-  </div>
-</section>
 
 
 <section class="section" id="contact">
@@ -380,7 +412,32 @@ photo, we clearly love children too). </p>
 
 
 
-<footer id="contact">
+
+
+<section class="section  dim-gray slimmer" id="subscribe">
+  <div class="container">
+
+<form class="pure-form pure-form-ignite" action="http://jamworkspace.us8.list-manage.com/subscribe/post?u=03f88b1ee48eac438fe29d593&amp;id=0a082512be" method="post" target="_blank">
+                    <fieldset>
+
+
+
+
+
+                        <input id="email" name="EMAIL" type="email" class='input-ignite' placeholder="Your Email">
+
+
+
+                        <button type="submit" class="pure-button pure-button-ignite">Get Updates</button>
+                    </fieldset>
+                </form>
+
+
+  </div>
+</section>
+
+
+<footer>
   <div class="container textcenter">
 
 <p>
