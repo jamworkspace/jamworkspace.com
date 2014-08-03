@@ -106,11 +106,16 @@ h4 {
   text-transform: uppercase;
   padding: 0 0px 15px 0; }
 
-article h4 {
-  font-size: 26px;
-  text-transform: none;
-  line-height: 1.2;
-  padding-bottom: 12px; }
+h4:after {
+  content: '';
+  width: 50px;
+  border-bottom: 1px solid #2b2b2b;
+  display: block;
+  margin: 10px 0 10px 0; }
+
+.textcenter h4:after {
+  margin-left: auto;
+  margin-right: auto; }
 
 h5 {
   font-size: 11px;
@@ -801,11 +806,11 @@ footer p a {
   list-style: none; }
 
 .button-choose {
-  border: 1px solid #ccc;
-  background: #fff;
-  color: #333;
+  border: none;
   font-weight: 200;
-  position: relative; }
+  position: relative;
+  color: #fff;
+  background: #b84f94; }
 
 .feature {
   font-size: 14px; }
