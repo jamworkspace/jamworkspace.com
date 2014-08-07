@@ -3,17 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Coworking - Amsterdam - Jam Workspace</title>
+    <title>Shared Workspace | Co-working for expats in Amsterdam - Jam Workspace</title>
+
+
+    <link rel="canonical" href="http://www.jamworkspace.com" />
+    <link rel="publisher" href="https://plus.google.com/+Jamworkspacecoworkingspace/"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shared Workspace | Co-working for expats in Amsterdam - Jam Workspace" />
+    <meta property="og:url" content="http://www.jamworkspace.com" />
+    <meta property="og:site_name" content="Jam Workspace" />
+    <meta property="article:publisher" content="http://www.facebook.com/jamworkspace" />
+    <meta property="og:image" content="http://jamworkspace.com/img/jam-workspace-co-founders.jpg" />
+    <meta name="description" content="Jam Workspace is Amsterdam's new coworking community! Share Office Space in an awesome city. Day Passes and Conference Rooms also available." />
+    <meta name="keywords" content="Shared Workspace, Office Space for Rent, Office Space for Lease, Office Space Rental Amsterdam, Coworking, Expat Workspace, Trailing Spouse, Expats Amsterdam" />
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,600' rel='stylesheet' type='text/css' />
-
-
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-
-
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"/>
-
-<link rel="stylesheet" href="/css/app-build.min.css" />
+    <link rel="stylesheet" href="/css/app-build.min.css" />
 
 </head>
 <body>
@@ -61,7 +68,7 @@
 <a href="http://twitter.com/jamworkspace" target="_blank"><i class="fa fa-twitter"></i></a>
 <a href="https://www.linkedin.com/company/jam-workspace?trk=biz-companies-cym" target="_blank"><i class="fa fa-linkedin"></i></a>
 <a href="http://facebook.com/jamworkspace" target="_blank"><i class="fa fa-facebook"></i></a>
-<a href="https://plus.google.com/+Jamworkspacecoworkingspace/posts?rel=author" target="_blank"><i class="fa fa-google"></i></a>
+<a href="https://plus.google.com/+Jamworkspacecoworkingspace/?rel=author" target="_blank"><i class="fa fa-google"></i></a>
 
 
 </span>
@@ -327,7 +334,7 @@
         <div class="pure-u-1-2">
             <div class="about-people">
                 <h4>Meet Kirsty & Paz</h4>
-               <p class='small'>"I love seeing others step out of their comfort zone and succeeding."  <br/>-Kirsty</p> <p class='small'>"Seeing other people grow and develop inspires me, especially women."  <br/>-<a href="https://plus.google.com/+PazChentnikAmsterdam?rel=author">By Paz Chentnik</a> | <a href="mailto:paz@jamworkspace.com">paz@jamworkspace.com</a></p>
+               <p class='small'>"I love seeing others step out of their comfort zone and succeeding."  <br/>-Kirsty</p> <p class='small'>"Seeing other people grow and develop inspires me, especially women."  <br/>-Paz</p>
             </div>
         </div>
       </div>
@@ -442,7 +449,7 @@
 
 <p>
 
-<span class="small alignleft">© 2014, Jam Workspace. All Rights Reserved.</span><br/>
+<span class="small alignleft">© 2014, Jam Workspace. All Rights Reserved.</span>  <a href="mailto:info@jamworkspace.com">By Jam Workspace</a><br/>
     <span class="small alignright"><a class="nav-item" href="#home">Home</a> | <a class="nav-item" href="#about">About</a> | <a class="nav-item" href="#programs">Programs</a> | <a class="nav-item" href="#contact">Contact</a></span>
 
 
