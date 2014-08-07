@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Shared Workspace | Co-working for expats in Amsterdam - Jam Workspace</title>
 
-
     <link rel="canonical" href="http://www.jamworkspace.com" />
     <link rel="publisher" href="https://plus.google.com/+Jamworkspacecoworkingspace/"/>
     <meta property="og:locale" content="en_US" />
@@ -17,6 +16,11 @@
     <meta property="og:image" content="http://jamworkspace.com/img/jam-workspace-co-founders.jpg" />
     <meta name="description" content="Jam Workspace is Amsterdam's new coworking community! Share Office Space in an awesome city. Day Passes and Conference Rooms also available." />
     <meta name="keywords" content="Shared Workspace, Office Space for Rent, Office Space for Lease, Office Space Rental Amsterdam, Coworking, Expat Workspace, Trailing Spouse, Expats Amsterdam" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@jamworkspace"/>
+    <meta name="twitter:creator" content="@jamworkspace"/>
+    <meta name="country" content="nl" />
+
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"/>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"/>
