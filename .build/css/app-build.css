@@ -359,7 +359,7 @@ footer p a {
   margin: 0 auto; }
 
 #preloader {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
