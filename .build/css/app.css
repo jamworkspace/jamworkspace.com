@@ -182,6 +182,13 @@ header {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
   overflow: hidden; }
 
+.static-map {
+  position: relative; }
+
+.static-map .block {
+  background-color: rgba(0, 0, 0, 0.3);
+  line-height: 1.5em; }
+
 .header {
   background: #fff;
   opacity: 1;
