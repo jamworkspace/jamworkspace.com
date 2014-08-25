@@ -192,7 +192,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose" target="_blank"><span>Inquire</span></a></td>
+                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -207,7 +207,7 @@
                 </thead>
                 <tbody>
                     <tr class="price">
-                        <td>€300 <span>/ month</span></td>
+                        <td>€299 <span>/ month</span></td>
                     </tr>
                     <tr class="feature">
                         <td>
@@ -220,7 +220,7 @@
                     </tr>
 
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose" target="_blank"><span>Inquire</span></a></td>
+                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -235,7 +235,7 @@
                 </thead>
                 <tbody>
                     <tr class="price">
-                        <td>€180 <span>/ month</span></td>
+                        <td>€199 <span>/ month</span></td>
                     </tr>
                     <tr class="feature">
                         <td>
@@ -247,7 +247,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose" target="_blank"><span>Inquire</span></a></td>
+                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -262,7 +262,7 @@
                 </thead>
                 <tbody>
                     <tr class="price">
-                        <td>€60 <span>/ month</span></td>
+                        <td>€99 <span>/ month</span></td>
                     </tr>
                     <tr class="feature">
                         <td>
@@ -274,7 +274,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose" target="_blank"><span>Inquire</span></a></td>
+                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
