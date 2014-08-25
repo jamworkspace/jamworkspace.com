@@ -143,7 +143,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -171,7 +171,7 @@
                     </tr>
 
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -198,7 +198,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -225,7 +225,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
                     </tr>
                 </tbody>
             </table>
