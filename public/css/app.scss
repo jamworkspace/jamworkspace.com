@@ -879,6 +879,14 @@ text-shadow: 0 0 50px #000;
     background-color: #cd529e;
 }
 
+.the-teal {
+    background-color: #669799;
+}
+
+ .make-text-white{color:#fff;}
+ .make-text-white h4:after{border-color:#fff;}
+ .make-text-white h4{color:#fff;}
+
 .strip.dark-blue h5 {
     color: #fff;
     text-align: center;
@@ -933,19 +941,19 @@ text-shadow: 0 0 50px #000;
 
 
 .social-media a {
-border: none;
-font-size: 36px;
-background: #00b5ef;
-color: #fff;
-display: block;
-float: left;
-margin: 0 10px 0 0;
-border-radius: 47px;
-width: 60px;
-height: 60px;
-text-align: center;
-line-height: 60px;
-padding: 0;
+    border: none;
+    font-size: 36px;
+    background: #00b5ef;
+    color: #fff;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 47px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    padding: 0;
 }
 
 .social-media a:hover{
@@ -960,30 +968,25 @@ padding: 0;
 }
 
 #nav li .social-media{
-
-border-left: 1px solid #e0e0e0;
-display: block;
-float: left;
-padding: 0 0 0 25px;
+    border-left: 1px solid #e0e0e0;
+    display: block;
+    float: left;
+    padding: 0 0 0 25px;
 }
 
 #nav li .social-media a {
-border: none;
-font-size: 16px;
-background:none;
-display: block;
-float: left;
-margin: 0 10px 0 0;
-border-radius: 47px;
-width: 27px;
-height: 27px;
-text-align: center;
-line-height: 27px;
-padding: 0;
-
-
-
-
+    border: none;
+    font-size: 16px;
+    background:none;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 47px;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    padding: 0;
 }
 #nav li .social-media a:hover{
     background: #00b5ef;
@@ -991,13 +994,13 @@ padding: 0;
     color:#fff;
 }
 
-
-.imageright{float:right;margin:0 0 0 20px;}
+.imageright{
+    float:right;margin:0 0 0 20px;
+}
 
 .padded{
-
-padding: 10px;
-background: white;
+    padding: 10px;
+    background: white;
 }
 
 .packages{
@@ -1018,39 +1021,94 @@ background: white;
 
 .packages thead th,
 .packages thead{
-background:transparent;text-align:center;
-
-font-family: 'Raleway', sans-serif;
-
-font-weight: 200;
-font-size: 26px;
-
-
-
+    background:transparent;text-align:center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
 }
 
-.packages .price{background:#F2F2F2;font-size:34px;}
+.packages .price{
+    background:#F2F2F2;font-size:34px;
+}
 .packages .price span{
-font-size: 12px;
+    font-size: 12px;
 }
-.packages .features ul{list-style:none;}
+.packages .features ul{
+    list-style:none;
+}
 
 
 .button-choose {
-border: none;
-font-weight: 200;
-position: relative;
-color: #fff;
-background: #b84f94;
+    border: none;
+    font-weight: 200;
+    position: relative;
+    color: #fff;
+    background: #b84f94;
 }
 
-.feature{font-size:14px;}
+.feature{
+    font-size:14px;
+}
 
 
 .pure-g [class *="pure-u"]{
-
-font-family: 'Raleway', sans-serif;
-
+    font-family: 'Raleway', sans-serif;
 }
 
 .service p{padding:0 20px;font-size:16px;}
+.special{padding:10px;background:#F2F2F2;}
+.spaces{
+    margin:20px 0 0 0;font-size:16px;
+}
+.highlight{border-bottom:1px dotted;}
+
+
+.space h3 {
+    background: 0 0;
+    font-family: Raleway,sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    margin: 0 0 10px 0;
+    line-height: 26px;
+    padding: 0 0 10px 0;
+}
+
+.spaces .space{
+    background: white;
+    padding: 15px;
+    margin: 0 10px 0 0;
+    /*border: 1px solid #ccc;*/
+    font-size:16px;
+    overflow:hidden;
+    color:#555;
+}
+.spaces .space .button-choose{
+    float:right;
+    margin:10px 0 0 10px;
+}
+.spaces .space ul{
+    padding: 10px 0 0 40px;
+}
+
+
+.space .price {
+    border-top: 1px dotted #ccc;
+    padding: 10px 0 0 0;
+    font-size:24px;
+}
+
+.space .price span{
+    font-size: 12px;
+}
+
+.additional-packages{
+    margin:20px 0 0 0;font-size:16px;
+}
+.additional-packages .package{
+    background: white;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    border: 1px solid #ccc;
+    font-size:16px;
+}
+

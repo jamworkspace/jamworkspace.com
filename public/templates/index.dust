@@ -41,6 +41,8 @@
   <div class="container about">
 
 
+
+
  <img class="imageright padded" src="../img/vision.jpg" width='250'/>
 
       <h4>Jam Workspace Story</h4>
@@ -105,18 +107,59 @@
 
 <section class="section strip light-gray slimmer static" id="subscribe">
   <div class="container">
-
-<p>We created Jam workspace because we needed it, and we know others do too.</p>
-
-  </div></section>
-
+    <p>We created Jam workspace because we needed it, and we know others do too.</p>
+  </div>
+</section>
 
 
 
 
 
+<section class="section the-teal make-text-white" id="meetings">
+    <div class="container">
+        <h4 class="textcenter">Meeting Spaces</h4>
 
-<section class="section strip" id="plans">
+        <div>
+
+            <p>Jam Workspace is the <span class="highlight">perfect place</span> for your next meeting or seminar!  We have all the ammenaties (WI-FI, Kitchen, etc.), and also include a <span class="highlight">friendly hostess</span> to assist in greeting and logistics :)</p>
+        </div>
+
+        <div class="pure-g spaces">
+
+            <div class="pure-u-1-2">
+                <div class="space">
+                    <h3>Meeting Room</h3>
+                    <div class="price">€30<span>/hour</span> <span class="non">(€40 - non-members)</span></div>
+                    <ul>
+                        <li>Seats up to 15 people</li>
+                        <li>Flexible setup style</li>
+
+                    </ul>
+                    <a href="/#contact" class="pure-button button-choose"><span>Book Space</span></a>
+                </div>
+            </div>
+            <div class="pure-u-1-2">
+                <div class="space">
+                    <h3>Extra Large Meeting Room</h3>
+                    <div class="price">€40<span>/hour</span> <span class="non">(€60 - non-members)</span></div>
+                    <ul>
+                        <li>Seats up to 50 people</li>
+                        <li>Flexible setup style w/ lounge area</li>
+                    </ul>
+                    <a href="/#contact" class="pure-button button-choose"><span>Book Space</span></a>
+                </div>
+            </div>
+        </div>
+        <p class="small"><strong>All our meeting spaces include:</strong> Hostess, High Speed WI-FI, Projector, Whiteboard / Flipchart, Coffee/Tea and use of kitchen, Fruit, *** Child-minding services are available (advanced notice is required with fee)*** </p>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="section" id="plans">
   <div class="container textcenter">
 
   <h4>Plans</h4>
@@ -143,7 +186,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -171,7 +214,7 @@
                     </tr>
 
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -198,7 +241,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -225,7 +268,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Inquire</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -234,9 +277,42 @@
 
 
     </div>
-  <div class="textcenter"><p>* All prices are VAT and registration fee exclusive.  Half-day packages are available.</p></div>
+
+
+
+
+ <div class="pure-g textleft additional-packages">
+        <div class="pure-u-1-2">
+            <div class="package">
+                <strong>Day passes</strong> <span>(€25)</span>
+                <p>Perfect for popping in from time to time to get some work done, or just to try us out.</p>
+            </div>
+        </div>
+
+        <div class="pure-u-1-2">
+            <div class="package">
+                <strong>Private Office Space</strong> <span>(<a href="mailto:info@jamworkspace.com">contact for pricing</a>)</span>
+                <p>We also offer permanant solutions for you and your business.  Limited space is available.</p>
+            </div>
+        </div>
+
+
+ </div>
+
+  <div class="textcenter small"><p>* All prices are VAT and registration fee exclusive.  Half-day packages are available.</p></div>
+
+
+
   </div>
 </section>
+
+
+
+
+
+
+
+
 
 
 
@@ -259,11 +335,6 @@
 
 
 
-                <li>
-                <p><strong>Meeting room space</strong> - Meeting rooms up to 15 people €30hr for members, €40hr for non-members</p></li>
-
-
-
 
 
             </ul>
@@ -273,10 +344,10 @@
         <div class="pure-u-1-3 service">
             <ul>
 
-                <li><p><strong>Hosting events or presentations</strong> - Ballroom/Community room up to 50 people. €40hr for members, €60hr for non-members. </p></li>
+         <li><p><strong>Child Care</strong> - Child minding services available on site.  Offsite partnership opportunities (in-home baby sitting, creche openings). </p></li>
 
 
- <li><p><strong>Personal Locked Cabinet</strong> - (€50 per month) Keep your private things private! Hiring a locked cabinet enables you to use our space flexibly, without lugging around your things every time you come.  Perfect for hot-deskers.</p></li>
+ <li><p><strong>Personal Locked Cabinet</strong> - (€30-€50 per month) Keep your private things private! Hiring a locked cabinet enables you to use our space flexibly, without lugging around your things every time you come.  Perfect for hot-deskers.</p></li>
 
 
             </ul>
@@ -291,7 +362,7 @@
 
 
 
-                <li><p><strong>Day passes</strong> - (€25) Perfect for popping in from time to time to get some work done, or just to try us out.</p></li>
+
 
 
 
@@ -302,6 +373,23 @@
 
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

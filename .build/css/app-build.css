@@ -701,6 +701,18 @@ footer p a {
 .jam-pink {
   background-color: #cd529e; }
 
+.the-teal {
+  background-color: #669799; }
+
+.make-text-white {
+  color: #fff; }
+
+.make-text-white h4:after {
+  border-color: #fff; }
+
+.make-text-white h4 {
+  color: #fff; }
+
 .strip.dark-blue h5 {
   color: #fff;
   text-align: center; }
@@ -847,5 +859,60 @@ footer p a {
 
 .service p {
   padding: 0 20px;
+  font-size: 16px; }
+
+.special {
+  padding: 10px;
+  background: #F2F2F2; }
+
+.spaces {
+  margin: 20px 0 0 0;
+  font-size: 16px; }
+
+.highlight {
+  border-bottom: 1px dotted; }
+
+.space h3 {
+  background: 0 0;
+  font-family: Raleway,sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+  margin: 0 0 10px 0;
+  line-height: 26px;
+  padding: 0 0 10px 0; }
+
+.spaces .space {
+  background: white;
+  padding: 15px;
+  margin: 0 10px 0 0;
+  /*border: 1px solid #ccc;*/
+  font-size: 16px;
+  overflow: hidden;
+  color: #555; }
+
+.spaces .space .button-choose {
+  float: right;
+  margin: 10px 0 0 10px; }
+
+.spaces .space ul {
+  padding: 10px 0 0 40px; }
+
+.space .price {
+  border-top: 1px dotted #ccc;
+  padding: 10px 0 0 0;
+  font-size: 24px; }
+
+.space .price span {
+  font-size: 12px; }
+
+.additional-packages {
+  margin: 20px 0 0 0;
+  font-size: 16px; }
+
+.additional-packages .package {
+  background: white;
+  padding: 10px;
+  margin: 0 10px 0 0;
+  border: 1px solid #ccc;
   font-size: 16px; }
 
