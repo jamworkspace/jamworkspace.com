@@ -168,7 +168,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Purchase Plan</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -196,7 +196,7 @@
                     </tr>
 
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Purchase Plan</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -223,7 +223,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Purchase Plan</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -250,7 +250,7 @@
                         </td>
                     </tr>
                     <tr class="choose">
-                        <td><a href="/#contact" class="pure-button button-choose"><span>Join</span></a></td>
+                        <td><a href="/#contact" class="pure-button button-choose"><span>Purchase Plan</span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -268,6 +268,7 @@
             <div class="package">
                 <strong>Day passes</strong> <span>(€25)</span>
                 <p>Perfect for popping in from time to time to get some work done, or just to try us out.</p>
+                <a href="/#contact" class="pure-button button-choose"><span>Buy Pass</span></a>
             </div>
         </div>
 
@@ -275,6 +276,7 @@
             <div class="package">
                 <strong>Private Office Space</strong> <span>(<a href="mailto:info@jamworkspace.com">contact for pricing</a>)</span>
                 <p>We also offer permanant solutions for you and your business.  Limited space is available.</p>
+                <a href="mailto:info@jamworkspace.com" class="pure-button button-choose"><span>Inquire</span></a>
             </div>
         </div>
 
