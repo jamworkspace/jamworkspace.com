@@ -292,7 +292,7 @@ p .block {
 .section#home {
   padding-top: 0; }
 
-.section#about {
+.section.top {
   margin-top: 150px; }
 
 .section.slim {

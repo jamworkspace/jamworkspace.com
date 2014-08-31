@@ -7,9 +7,9 @@
       <nav>
         <ul id="nav">
           <li><a class="nav-item" href="/#home">Home</a></li>
-          <li><a class="nav-item" href="/#about">About</a></li>
           <li><a class="nav-item" href="/#meetings">Meetings</a></li>
           <li><a class="nav-item" href="/#plans">Plans</a></li>
+          <li><a class="nav-item" href="/#about">About</a></li>
           <li><a class="nav-item" href="/#contact">Contact</a></li>
           <li>
 

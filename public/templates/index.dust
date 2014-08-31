@@ -37,24 +37,6 @@
 
 
 
-<section class="section strip clearfix story" id="about">
-  <div class="container about">
-
-
-
-
- <img class="imageright padded" src="../img/vision.jpg" width='250'/>
-
-      <h4>Jam Workspace Story</h4>
-
-    <p><span class="spark">Imagine</span> moving to the other side of the world with a young family as a ‘trailing spouse’. You <span class="spark">strive</span> to maintain your own professional <span class="spark">aspirations</span> or even want to try something new, like a new business…
-</p>
-
-<a href="/about" class="pure-button button-choose">Read More</a>
-
-
-  </div>
-</section>
 
 
 
@@ -63,7 +45,7 @@
 
 
 
-<section class="section textcenter" id="services">
+<section class="section textcenter strip top" id="services">
   <div class="container">
 <h4>What we do</h4>
 
@@ -320,7 +302,7 @@
 
 
 
-<section class="section" id="services">
+<section class="section strip" id="services">
   <div class="container">
 <h4 class="textcenter">À la carte / Services</h4>
 
@@ -344,7 +326,7 @@
         <div class="pure-u-1-3 service">
             <ul>
 
-         <li><p><strong>Child Care</strong> - Child minding services available on site.  Offsite partnership opportunities (in-home baby sitting, creche openings). </p></li>
+         <li><p><strong>Child Care</strong> - Child minding services available by negotiations for events & meetings.  Offsite partnership opportunities (in-home baby sitting, creche openings). </p></li>
 
 
  <li><p><strong>Personal Locked Cabinet</strong> - (€30-€50 per month) Keep your private things private! Hiring a locked cabinet enables you to use our space flexibly, without lugging around your things every time you come.  Perfect for hot-deskers.</p></li>
@@ -383,6 +365,24 @@
 
 
 
+<section class="section clearfix story" id="about">
+  <div class="container about">
+
+
+
+
+ <img class="imageright padded" src="../img/vision.jpg" width='250'/>
+
+      <h4>Jam Workspace Story</h4>
+
+    <p><span class="spark">Imagine</span> moving to the other side of the world with a young family as a ‘trailing spouse’. You <span class="spark">strive</span> to maintain your own professional <span class="spark">aspirations</span> or even want to try something new, like a new business…
+</p>
+
+<a href="/about" class="pure-button button-choose">Read More</a>
+
+
+  </div>
+</section>
 
 
 
