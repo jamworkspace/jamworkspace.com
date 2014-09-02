@@ -812,20 +812,17 @@ footer p a {
   padding: 10px;
   background: white; }
 
-.packages {
-  text-align: center;
-  margin: 0 10px;
-  min-height: 375px;
-  background: #fff; }
-
 .package {
   min-height: 60px; }
 
-.packages:first-child {
-  margin: 0 0 0 10px; }
+.packages table {
+  background: #fff;
+  min-height: 375px;
+  margin: 0 10px 0 0;
+  text-align: center; }
 
-.packages:last-child {
-  margin: 0 10px 0 0; }
+.packages:last-child table {
+  margin: 0; }
 
 .packages thead th,
 .packages thead {
@@ -911,12 +908,15 @@ footer p a {
   margin: 20px 0 0 0;
   font-size: 16px; }
 
-.additional-packages .package {
+.additional-packages .package .details {
   background: white;
   padding: 10px;
   margin: 0 10px 0 0;
   border: 1px solid #ccc;
   font-size: 16px; }
+
+.additional-packages .package:last-child .details {
+  margin: 0; }
 
 .event-list {
   list-style: none;
@@ -941,4 +941,9 @@ footer p a {
   letter-spacing: normal;
   font-size: 14px;
   font-weight: 200; }
+
+.deal {
+  padding: 15px;
+  background: #00b5ef;
+  color: #fff; }
 

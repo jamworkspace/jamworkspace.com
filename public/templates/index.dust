@@ -177,9 +177,10 @@
   <div class="container textcenter">
 
   <h4>Plans</h4>
+  <p class="deal"><strong>Sign up now!</strong>  20% off first month, free membership registration, 1 month free business service</p>
     <div class="pure-g">
-        <div class="pure-u-1-4">
-            <table class="pure-table packages">
+        <div class="pure-u-1-4 packages">
+            <table class="pure-table">
                 <thead>
                     <tr>
                         <th><div class="package">Semi-private</div></th>
@@ -206,8 +207,8 @@
             </table>
         </div>
 
-        <div class="pure-u-1-4">
-            <table class="pure-table packages">
+        <div class="pure-u-1-4 packages">
+            <table class="pure-table">
                 <thead>
                     <tr>
                         <th><div class="package">5 days per week</div></th>
@@ -234,8 +235,8 @@
             </table>
         </div>
 
-        <div class="pure-u-1-4">
-            <table class="pure-table packages">
+        <div class="pure-u-1-4 packages">
+            <table class="pure-table">
                 <thead>
                     <tr>
                         <th><div class="package">3 days per week</div></th>
@@ -261,8 +262,8 @@
             </table>
         </div>
 
-        <div class="pure-u-1-4">
-            <table class="pure-table packages">
+        <div class="pure-u-1-4 packages">
+            <table class="pure-table">
                 <thead>
                     <tr>
                         <th><div class="package">1 day per week</div></th>
@@ -296,16 +297,16 @@
 
 
  <div class="pure-g textleft additional-packages">
-        <div class="pure-u-1-2">
-            <div class="package">
+        <div class="pure-u-1-2 package">
+            <div class="details">
                 <strong>Day passes</strong> <span>(€25)</span>
                 <p>Perfect for popping in from time to time to get some work done, or just to try us out.</p>
                 <a href="/#contact" class="pure-button button-choose"><span>Buy Pass</span></a>
             </div>
         </div>
 
-        <div class="pure-u-1-2">
-            <div class="package">
+        <div class="pure-u-1-2 package">
+            <div class="details">
                 <strong>Private Office Space</strong> <span>(<a href="mailto:info@jamworkspace.com">contact for pricing</a>)</span>
                 <p>We also offer permanant solutions for you and your business.  Limited space is available.</p>
                 <a href="mailto:info@jamworkspace.com" class="pure-button button-choose"><span>Inquire</span></a>
