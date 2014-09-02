@@ -38,46 +38,11 @@
 
 
 
-<section class="section textcenter top" id="events">
-  <div class="container">
-<h4>Events & Upcoming</h4>
-
- <div class="pure-g">
-            <div class="pure-u-3-5 textleft events">
-               <ul>
-                <li><p><i class="fa fa-calendar"></i> <span class="date">(01/10/2014)</span> - Jam Workspace Opening <a href="/events">more details ></a></p></li>
-                <li><p><i class="fa fa-calendar"></i> <span class="date">(03/10/2014)</span> - First friday fundraiser <a href="/events">more details ></a></p></li>
-                <li><p><i class="fa fa-calendar"></i> <span class="date">(07/11/2014)</span> - First friday fundraiser <a href="/events">more details ></a></p></li>
-               </ul>
-            </div>
-
-            <div class="pure-u-2-5 textleft upcoming">
-
-                <p class="special">Host your workshop, presentation, or event in our central Amsterdam location. <a href="#contact">Contact us</a> today to check availability.</p>
-
-
-            </div>
-
-
-        </div>
 
 
 
 
-
-
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-<section class="section textcenter" id="services">
+<section class="section textcenter top strip" id="services">
   <div class="container">
 <h4>What we do</h4>
 
@@ -122,6 +87,41 @@
 <section class="section strip light-gray slimmer static" id="subscribe">
   <div class="container">
     <p>We created Jam workspace because we needed it, and we know others do too.</p>
+  </div>
+</section>
+
+
+
+
+
+<section class="section textcenter" id="events">
+  <div class="container">
+<h4>Events & Upcoming</h4>
+
+ <div class="pure-g">
+            <div class="pure-u-3-5 textleft events">
+               <ul>
+                <li><p><i class="fa fa-calendar"></i> <span class="date">(01/10/2014)</span> - Jam Workspace Opening <a href="/events">more details ></a></p></li>
+                <li><p><i class="fa fa-calendar"></i> <span class="date">(03/10/2014)</span> - First friday fundraiser <a href="/events">more details ></a></p></li>
+                <li><p><i class="fa fa-calendar"></i> <span class="date">(07/11/2014)</span> - First friday fundraiser <a href="/events">more details ></a></p></li>
+               </ul>
+            </div>
+
+            <div class="pure-u-2-5 textleft upcoming">
+
+                <p class="special">Host your workshop, presentation, or event in our central Amsterdam location. <a href="#contact">Contact us</a> today to check availability.</p>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
   </div>
 </section>
 
@@ -177,7 +177,12 @@
   <div class="container textcenter">
 
   <h4>Plans</h4>
-  <div class="deal"><strong>Opening special!</strong>  20% off first month, free membership registration, 1 month free business service
+  <div class="deal textleft"><i class="fa fa-tags" style="
+    font-size: 33px;
+    float: left;
+    display: block;
+    margin: 0 10px 0 0;
+"></i><strong>Opening special!</strong>  20% off first month, free membership registration, 1 month free business service
 
   <span class="small textright">(valid until Nov 1 2014)</span>
   </div>
