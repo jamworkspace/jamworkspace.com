@@ -945,4 +945,10 @@ footer p a {
 .deal {
   padding: 15px;
   background: #00b5ef;
-  color: #fff; }
+  color: #fff;
+  margin: 0 0 10px 0; }
+
+.deal span {
+  display: block;
+  text-align: right;
+  padding: 10px 0 0; }

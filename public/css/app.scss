@@ -1125,5 +1125,16 @@ font-size: 14px;
 font-weight: 200;
 }
 
-.deal{padding:15px; background:#00b5ef;color:#fff;}
+.deal {
+padding: 15px;
+background: #00b5ef;
+color: #fff;
+margin:0 0 10px 0;
+}
+
+.deal span {
+display: block;
+text-align: right;
+padding: 10px 0 0;
+}
 
