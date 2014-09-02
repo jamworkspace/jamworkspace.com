@@ -1057,7 +1057,7 @@ text-shadow: 0 0 50px #000;
 }
 
 .service p{padding:0 20px;font-size:16px;}
-.special{padding:10px;background:#F2F2F2;}
+.special{padding:10px;background:#F2F2F2;margin-left:30px;}
 .spaces{
     margin:20px 0 0 0;font-size:16px;
 }
@@ -1111,5 +1111,18 @@ text-shadow: 0 0 50px #000;
     margin: 0 10px 0 0;
     border: 1px solid #ccc;
     font-size:16px;
+}
+
+.event-list{list-style:none;margin:0;padding:0;}
+
+.event-list li {margin:0 0 20px 0;padding:0 0 20px 0;border-bottom:1px dotted #ccc;overflow:hidden;}
+.event-list li .pure-button{float:right;}
+.event-list li p{margin:0;}
+.event-list li h5 {
+margin: 0;
+padding: 0 0 10px 0;
+letter-spacing: normal;
+font-size: 14px;
+font-weight: 200;
 }
 
